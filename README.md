@@ -191,26 +191,26 @@
   - **Self-Attention, Multi-Head Attention**
   - **Positional Encoding**
   - **인코더-디코더 구조**
-- [x] [**주요 트랜스포머 기반 모델:**](./docs/04_05_03_Transformer_Models.md)
+- [ ] [**주요 트랜스포머 기반 모델:**](./docs/04_05_03_Transformer_Models.md)
   - **BERT (Bidirectional Encoder Representations from Transformers)**
   - **GPT (Generative Pre-trained Transformer)**
   - **T5, BART**
-- [x] [**응용 분야:** 기계 번역, 텍스트 생성, 요약, 질의응답](./docs/04_05_04_Transformer_Applications.md)
+- [ ] [**응용 분야:** 기계 번역, 텍스트 생성, 요약, 질의응답](./docs/04_05_04_Transformer_Applications.md)
 
 ### 4.6. 생성 모델 (Generative Models)
-- [x] [**오토인코더 (Autoencoders, AE):** 데이터 압축 및 특징 추출](./docs/04_06_01_Autoencoders.md)
-- [x] [**변이형 오토인코더 (Variational Autoencoders, VAE):** 확률적 잠재 공간을 이용한 데이터 생성](./docs/04_06_02_Variational_Autoencoders.md)
-- [x] [**생성적 적대 신경망 (Generative Adversarial Networks, GAN):**](./docs/04_06_03_GANs.md)
+- [ ] [**오토인코더 (Autoencoders, AE):** 데이터 압축 및 특징 추출](./docs/04_06_01_Autoencoders.md)
+- [ ] [**변이형 오토인코더 (Variational Autoencoders, VAE):** 확률적 잠재 공간을 이용한 데이터 생성](./docs/04_06_02_Variational_Autoencoders.md)
+- [ ] [**생성적 적대 신경망 (Generative Adversarial Networks, GAN):**](./docs/04_06_03_GANs.md)
   - 생성자(Generator)와 판별자(Discriminator)의 경쟁을 통한 학습
   - DCGAN, StyleGAN 등 주요 GAN 모델
-- [x] [**디퓨전 모델 (Diffusion Models):** 노이즈를 점진적으로 제거하며 데이터 생성](./docs/04_06_04_Diffusion_Models.md)
-- [x] [**응용 분야:** 이미지 생성, 스타일 변환(Style Transfer), 데이터 증강](./docs/04_06_05_Generative_Applications.md)
+- [ ] [**디퓨전 모델 (Diffusion Models):** 노이즈를 점진적으로 제거하며 데이터 생성](./docs/04_06_04_Diffusion_Models.md)
+- [ ] [**응용 분야:** 이미지 생성, 스타일 변환(Style Transfer), 데이터 증강](./docs/04_06_05_Generative_Applications.md)
 
 ### 4.7. 그래프 신경망 (Graph Neural Networks, GNN)
-- [x] [**그래프 데이터의 이해:** 노드, 엣지, 그래프 구조](./docs/04_07_01_Graph_Data.md)
-- [x] [**GNN의 기본 원리:** 메시지 전달(Message Passing)](./docs/04_07_02_GNN_Principles.md)
-- [x] [**주요 GNN 아키텍처:** GCN, GraphSAGE, GAT](./docs/04_07_03_GNN_Architectures.md)
-- [x] [**응용 분야:** 추천 시스템, 소셜 네트워크 분석, 분자 구조 예측](./docs/04_07_04_GNN_Applications.md)
+- [ ] [**그래프 데이터의 이해:** 노드, 엣지, 그래프 구조](./docs/04_07_01_Graph_Data.md)
+- [ ] [**GNN의 기본 원리:** 메시지 전달(Message Passing)](./docs/04_07_02_GNN_Principles.md)
+- [ ] [**주요 GNN 아키텍처:** GCN, GraphSAGE, GAT](./docs/04_07_03_GNN_Architectures.md)
+- [ ] [**응용 분야:** 추천 시스템, 소셜 네트워크 분석, 분자 구조 예측](./docs/04_07_04_GNN_Applications.md)
 
 ## 파트 5: 강화학습 (Reinforcement Learning)
 
@@ -256,150 +256,150 @@
 ## 파트 6: MLOps (Machine Learning Operations)
 
 ### 6.1. MLOps 개요 (Introduction to MLOps)
-- [x] [MLOps의 정의, 필요성, DevOps와의 차이점, 전체 파이프라인](./docs/06_01_Introduction_to_MLOps.md)
+- [ ] [MLOps의 정의, 필요성, DevOps와의 차이점, 전체 파이프라인](./docs/06_01_Introduction_to_MLOps.md)
 
 ### 6.2. 데이터 및 피처 관리 (Data and Feature Management)
-- [x] [데이터 파이프라인, 데이터 버전 관리(DVC), 피처 스토어](./docs/06_02_Data_and_Feature_Management.md)
+- [ ] [데이터 파이프라인, 데이터 버전 관리(DVC), 피처 스토어](./docs/06_02_Data_and_Feature_Management.md)
 
 ### 6.3. 모델 배포 및 서빙 (Model Deployment & Serving)
-- [x] [배포 전략, 모델 서빙, 컨테이너화, 서버리스](./docs/06_03_Model_Deployment_and_Serving.md)
+- [ ] [배포 전략, 모델 서빙, 컨테이너화, 서버리스](./docs/06_03_Model_Deployment_and_Serving.md)
 
 ### 6.4. CI/CD/CT for ML
-- [x] [지속적 통합(CI), 지속적 제공/배포(CD), 지속적 학습(CT)](./docs/06_04_CI_CD_CT_for_ML.md)
+- [ ] [지속적 통합(CI), 지속적 제공/배포(CD), 지속적 학습(CT)](./docs/06_04_CI_CD_CT_for_ML.md)
 
 ### 6.5. 모델 모니터링 및 관리 (Model Monitoring & Management)
-- [x] [모델 성능 모니터링, 드리프트, 모델 레지스트리, MLOps 플랫폼](./docs/06_05_Model_Monitoring_and_Management.md)
+- [ ] [모델 성능 모니터링, 드리프트, 모델 레지스트리, MLOps 플랫폼](./docs/06_05_Model_Monitoring_and_Management.md)
 
 ## 파트 7: 심화 주제 및 전문 분야 (Advanced Topics & Specializations)
 
 ### 7.1. 자연어 처리 심화 (Advanced Natural Language Processing, NLP)
-- [x] [**텍스트 임베딩 (Text Embeddings)**](./docs/07_01_01_Text_Embeddings.md)
-  - [x] Word2Vec, GloVe, FastText: 단어 수준의 벡터 표현
-  - [x] Contextual Embeddings: ELMo, BERT, GPT
-- [x] [**주요 NLP 과제**](./docs/07_01_02_NLP_Tasks.md)
-  - [x] 감성 분석 (Sentiment Analysis)
-  - [x] 개체명 인식 (Named Entity Recognition, NER)
-  - [x] 토픽 모델링 (Topic Modeling): Latent Dirichlet Allocation (LDA)
-  - [x] 기계 번역 (Machine Translation)
-  - [x] 텍스트 요약 (Text Summarization)
-  - [x] 질의응답 시스템 (Question Answering Systems)
+- [ ] [**텍스트 임베딩 (Text Embeddings)**](./docs/07_01_01_Text_Embeddings.md)
+  - [ ] Word2Vec, GloVe, FastText: 단어 수준의 벡터 표현
+  - [ ] Contextual Embeddings: ELMo, BERT, GPT
+- [ ] [**주요 NLP 과제**](./docs/07_01_02_NLP_Tasks.md)
+  - [ ] 감성 분석 (Sentiment Analysis)
+  - [ ] 개체명 인식 (Named Entity Recognition, NER)
+  - [ ] 토픽 모델링 (Topic Modeling): Latent Dirichlet Allocation (LDA)
+  - [ ] 기계 번역 (Machine Translation)
+  - [ ] 텍스트 요약 (Text Summarization)
+  - [ ] 질의응답 시스템 (Question Answering Systems)
 
 ### 7.2. 컴퓨터 비전 심화 (Advanced Computer Vision, CV)
-- [x] [**전이 학습 (Transfer Learning) 및 미세 조정 (Fine-tuning)**](./docs/07_02_01_Transfer_Learning_and_Fine_tuning.md): 사전 훈련된 모델 활용
-- [x] [**이미지 생성 (Image Generation) 및 스타일 변환 (Style Transfer)**](./docs/07_02_02_Image_Generation_and_Style_Transfer.md)
-- [x] [**Semantic/Instance Segmentation 심화**](./docs/07_02_03_Advanced_Segmentation.md)
-- [x] [**3D 비전 (3D Vision)**](./docs/07_02_04_3D_Vision.md)
-- [x] [**비디오 분석 (Video Analysis)**](./docs/07_02_05_Video_Analysis.md)
+- [ ] [**전이 학습 (Transfer Learning) 및 미세 조정 (Fine-tuning)**](./docs/07_02_01_Transfer_Learning_and_Fine_tuning.md): 사전 훈련된 모델 활용
+- [ ] [**이미지 생성 (Image Generation) 및 스타일 변환 (Style Transfer)**](./docs/07_02_02_Image_Generation_and_Style_Transfer.md)
+- [ ] [**Semantic/Instance Segmentation 심화**](./docs/07_02_03_Advanced_Segmentation.md)
+- [ ] [**3D 비전 (3D Vision)**](./docs/07_02_04_3D_Vision.md)
+- [ ] [**비디오 분석 (Video Analysis)**](./docs/07_02_05_Video_Analysis.md)
 
 ### 7.3. 추천 시스템 (Recommender Systems)
-- [x] [**콘텐츠 기반 필터링 (Content-Based Filtering)**](./docs/07_03_01_Content_Based_Filtering.md)
-- [x] [**협업 필터링 (Collaborative Filtering)**](./docs/07_03_02_Collaborative_Filtering.md)
-  - [x] 최근접 이웃 기반 (Neighborhood-based)
-  - [x] 잠재 요인 모델 (Latent Factor Models): 행렬 분해 (Matrix Factorization), SVD
-- [x] [**딥러닝 기반 추천 시스템 (Deep Learning-based Recommender Systems)**](./docs/07_03_03_Deep_Learning_based_Recommender_Systems.md)
-- [x] [**하이브리드 모델 (Hybrid Models)**](./docs/07_03_04_Hybrid_Models.md)
+- [ ] [**콘텐츠 기반 필터링 (Content-Based Filtering)**](./docs/07_03_01_Content_Based_Filtering.md)
+- [ ] [**협업 필터링 (Collaborative Filtering)**](./docs/07_03_02_Collaborative_Filtering.md)
+  - [ ] 최근접 이웃 기반 (Neighborhood-based)
+  - [ ] 잠재 요인 모델 (Latent Factor Models): 행렬 분해 (Matrix Factorization), SVD
+- [ ] [**딥러닝 기반 추천 시스템 (Deep Learning-based Recommender Systems)**](./docs/07_03_03_Deep_Learning_based_Recommender_Systems.md)
+- [ ] [**하이브리드 모델 (Hybrid Models)**](./docs/07_03_04_Hybrid_Models.md)
 
 ### 7.4. 시계열 분석 (Time Series Analysis)
-- [x] [**전통적 시계열 모델**](./docs/07_04_01_Traditional_Time_Series_Models.md)
-  - [x] AR (Autoregressive), MA (Moving Average), ARMA, ARIMA, SARIMA
-- [x] [**딥러닝 기반 시계열 모델**](./docs/07_04_02_Deep_Learning_based_Time_Series_Models.md)
-  - [x] RNNs, LSTMs, GRUs for Time Series Forecasting
-- [x] [**기타 모델**](./docs/07_04_03_Other_Time_Series_Models.md): Facebook Prophet, N-BEATS
+- [ ] [**전통적 시계열 모델**](./docs/07_04_01_Traditional_Time_Series_Models.md)
+  - [ ] AR (Autoregressive), MA (Moving Average), ARMA, ARIMA, SARIMA
+- [ ] [**딥러닝 기반 시계열 모델**](./docs/07_04_02_Deep_Learning_based_Time_Series_Models.md)
+  - [ ] RNNs, LSTMs, GRUs for Time Series Forecasting
+- [ ] [**기타 모델**](./docs/07_04_03_Other_Time_Series_Models.md): Facebook Prophet, N-BEATS
 
 ### 7.5. 책임감 있고 윤리적인 AI (Responsible & Ethical AI)
-- [x] [**AI의 편향성과 공정성 (Bias and Fairness in AI)**](./docs/07_05_01_Bias_and_Fairness_in_AI.md)
-  - [x] 편향의 종류와 탐지 방법
-  - [x] 공정성 지표 및 완화 기법
-- [x] [**설명 가능한 AI (Explainable AI, XAI)**](./docs/07_05_02_Explainable_AI_XAI.md)
-  - [x] 모델의 예측을 인간이 이해할 수 있도록 설명
-  - [x] LIME (Local Interpretable Model-agnostic Explanations)
-  - [x] SHAP (SHapley Additive exPlanations)
-- [x] [**프라이버시 보호 (Privacy in AI)**](./docs/07_05_03_Privacy_in_AI.md)
-  - [x] 연합 학습 (Federated Learning)
-  - [x] 차등 정보보호 (Differential Privacy)
-- [x] [**AI 안전성 (AI Safety)**](./docs/07_05_04_AI_Safety.md): AI 시스템의 의도치 않은 행동 방지
+- [ ] [**AI의 편향성과 공정성 (Bias and Fairness in AI)**](./docs/07_05_01_Bias_and_Fairness_in_AI.md)
+  - [ ] 편향의 종류와 탐지 방법
+  - [ ] 공정성 지표 및 완화 기법
+- [ ] [**설명 가능한 AI (Explainable AI, XAI)**](./docs/07_05_02_Explainable_AI_XAI.md)
+  - [ ] 모델의 예측을 인간이 이해할 수 있도록 설명
+  - [ ] LIME (Local Interpretable Model-agnostic Explanations)
+  - [ ] SHAP (SHapley Additive exPlanations)
+- [ ] [**프라이버시 보호 (Privacy in AI)**](./docs/07_05_03_Privacy_in_AI.md)
+  - [ ] 연합 학습 (Federated Learning)
+  - [ ] 차등 정보보호 (Differential Privacy)
+- [ ] [**AI 안전성 (AI Safety)**](./docs/07_05_04_AI_Safety.md): AI 시스템의 의도치 않은 행동 방지
 
 ## 파트 8: 로봇공학 기초 (Robotics Foundations)
 
 ### 8.1. 로봇 시스템 소개 (Introduction to Robot Systems)
-- [x] [로봇의 정의, 종류 및 구성요소](./docs/08_01_01_Robot_Definition_Types_Components.md) (매니퓰레이터, 모바일 로봇, 휴머노이드)
-- [x] [좌표계 (Coordinate Systems) 및 변환 (Transformations)](./docs/08_01_02_Coordinate_Systems_Transformations.md): 3D 회전 및 변환 행렬
-- [x] [로봇의 자유도 (Degrees of Freedom, DoF)](./docs/08_01_03_Degrees_of_Freedom.md)
+- [ ] [로봇의 정의, 종류 및 구성요소](./docs/08_01_01_Robot_Definition_Types_Components.md) (매니퓰레이터, 모바일 로봇, 휴머노이드)
+- [ ] [좌표계 (Coordinate Systems) 및 변환 (Transformations)](./docs/08_01_02_Coordinate_Systems_Transformations.md): 3D 회전 및 변환 행렬
+- [ ] [로봇의 자유도 (Degrees of Freedom, DoF)](./docs/08_01_03_Degrees_of_Freedom.md)
 
 ### 8.2. 로봇 운동학 (Robot Kinematics)
-- [x] [순기구학 (Forward Kinematics)](./docs/08_02_01_Forward_Kinematics.md): Denavit-Hartenberg (DH) 파라미터
-- [x] [역기구학 (Inverse Kinematics)](./docs/08_02_02_Inverse_Kinematics.md): 해석적 해법 (Analytical Solutions), 수치적 해법 (Numerical Solutions)
-- [x] [자코비안 (Jacobian)](./docs/08_02_03_Jacobian.md): 속도 및 정적 힘(Static Force) 관계 분석
+- [ ] [순기구학 (Forward Kinematics)](./docs/08_02_01_Forward_Kinematics.md): Denavit-Hartenberg (DH) 파라미터
+- [ ] [역기구학 (Inverse Kinematics)](./docs/08_02_02_Inverse_Kinematics.md): 해석적 해법 (Analytical Solutions), 수치적 해법 (Numerical Solutions)
+- [ ] [자코비안 (Jacobian)](./docs/08_02_03_Jacobian.md): 속도 및 정적 힘(Static Force) 관계 분석
 
 ### 8.3. 로봇 동역학 (Robot Dynamics)
-- [x] [라그랑주 역학 (Lagrangian Dynamics) 기반 모델링](./docs/08_03_01_Lagrangian_Dynamics.md)
-- [x] [뉴턴-오일러 방정식 (Newton-Euler Formulation) 기반 모델링](./docs/08_03_02_Newton_Euler_Formulation.md)
+- [ ] [라그랑주 역학 (Lagrangian Dynamics) 기반 모델링](./docs/08_03_01_Lagrangian_Dynamics.md)
+- [ ] [뉴턴-오일러 방정식 (Newton-Euler Formulation) 기반 모델링](./docs/08_03_02_Newton_Euler_Formulation.md)
 
 ### 8.4. 로봇 제어 (Robot Control)
-- [x] [선형 제어 시스템 기초](./docs/08_04_01_Linear_Control_Systems.md): 전달 함수, 상태 공간 모델
-- [x] [PID 제어 (Proportional-Integral-Derivative Control) 및 튜닝](./docs/08_04_02_PID_Control.md)
-- [x] [궤적 추종 제어 (Trajectory Tracking Control)](./docs/08_04_03_Trajectory_Tracking_Control.md)
-- [x] [힘 제어 (Force Control) 및 임피던스 제어 (Impedance Control)](./docs/08_04_04_Force_Impedance_Control.md)
+- [ ] [선형 제어 시스템 기초](./docs/08_04_01_Linear_Control_Systems.md): 전달 함수, 상태 공간 모델
+- [ ] [PID 제어 (Proportional-Integral-Derivative Control) 및 튜닝](./docs/08_04_02_PID_Control.md)
+- [ ] [궤적 추종 제어 (Trajectory Tracking Control)](./docs/08_04_03_Trajectory_Tracking_Control.md)
+- [ ] [힘 제어 (Force Control) 및 임피던스 제어 (Impedance Control)](./docs/08_04_04_Force_Impedance_Control.md)
 
 ### 8.5. 로봇 센서 및 액추에이터 (Sensors and Actuators)
-- [x] [주요 센서](./docs/08_05_01_Robot_Sensors.md): 카메라, LiDAR, RADAR, IMU, GPS, 엔코더(Encoder), 힘/토크 센서
-- [x] [주요 액추에이터](./docs/08_05_02_Robot_Actuators.md): DC 모터, 서보 모터, 스테퍼 모터, 유압/공압 시스템
+- [ ] [주요 센서](./docs/08_05_01_Robot_Sensors.md): 카메라, LiDAR, RADAR, IMU, GPS, 엔코더(Encoder), 힘/토크 센서
+- [ ] [주요 액추에이터](./docs/08_05_02_Robot_Actuators.md): DC 모터, 서보 모터, 스테퍼 모터, 유압/공압 시스템
 
 ## 파트 9: 로봇 프로그래밍 플랫폼 (Robotics Programming Platforms)
 
 ### 9.1. 로봇 운영체제 (Robot Operating System, ROS)
-- [x] [ROS 1 vs. ROS 2: 아키텍처 차이 및 선택 가이드](./docs/09_01_01_ROS1_vs_ROS2.md)
-- [x] [ROS 2 핵심 개념: 노드(Nodes), 토픽(Topics), 서비스(Services), 액션(Actions), 파라미터(Parameters)](./docs/09_01_02_ROS2_Core_Concepts.md)
-- [x] [개발 환경 및 도구: Colcon 빌드 시스템, Rviz2 시각화 도구, ros2 bag 데이터 로깅](./docs/09_01_03_Development_Environment.md)
-- [x] [TF (Transform Library): 로봇의 동적인 좌표 변환 관리](./docs/09_01_04_TF.md)
-- [x] [URDF (Unified Robot Description Format): 로봇 모델 기술](./docs/09_01_05_URDF.md)
+- [ ] [ROS 1 vs. ROS 2: 아키텍처 차이 및 선택 가이드](./docs/09_01_01_ROS1_vs_ROS2.md)
+- [ ] [ROS 2 핵심 개념: 노드(Nodes), 토픽(Topics), 서비스(Services), 액션(Actions), 파라미터(Parameters)](./docs/09_01_02_ROS2_Core_Concepts.md)
+- [ ] [개발 환경 및 도구: Colcon 빌드 시스템, Rviz2 시각화 도구, ros2 bag 데이터 로깅](./docs/09_01_03_Development_Environment.md)
+- [ ] [TF (Transform Library): 로봇의 동적인 좌표 변환 관리](./docs/09_01_04_TF.md)
+- [ ] [URDF (Unified Robot Description Format): 로봇 모델 기술](./docs/09_01_05_URDF.md)
 
 ### 9.2. 로봇 시뮬레이터 (Robot Simulators)
-- [x] [Gazebo: 물리 엔진 기반 다개체 시뮬레이션, 월드/모델 생성 및 ROS 연동](./docs/09_02_01_Gazebo.md)
-- [x] [NVIDIA Isaac Sim: 포토리얼리스틱 렌더링, 물리 기반 시뮬레이션, 딥러닝용 합성 데이터 생성](./docs/09_02_02_NVIDIA_Isaac_Sim.md)
-- [x] [기타 시뮬레이터: CoppeliaSim (V-REP), PyBullet, MuJoCo](./docs/09_02_03_Other_Simulators.md)
+- [ ] [Gazebo: 물리 엔진 기반 다개체 시뮬레이션, 월드/모델 생성 및 ROS 연동](./docs/09_02_01_Gazebo.md)
+- [ ] [NVIDIA Isaac Sim: 포토리얼리스틱 렌더링, 물리 기반 시뮬레이션, 딥러닝용 합성 데이터 생성](./docs/09_02_02_NVIDIA_Isaac_Sim.md)
+- [ ] [기타 시뮬레이터: CoppeliaSim (V-REP), PyBullet, MuJoCo](./docs/09_02_03_Other_Simulators.md)
 
 ### 9.3. 임베디드 시스템 (Embedded Systems for Robotics)
-- [x] [마이크로컨트롤러 (MCU): Arduino, STM32 등 펌웨어 개발](./docs/09_03_01_MCU.md)
-- [x] [싱글 보드 컴퓨터 (SBC): Raspberry Pi, Jetson Nano - 리눅스 기반 로봇 제어](./docs/09_03_02_SBC.md)
-- [x] [실시간 운영체제 (RTOS): FreeRTOS, Zephyr - 실시간성 보장](./docs/09_03_03_RTOS.md)
+- [ ] [마이크로컨트롤러 (MCU): Arduino, STM32 등 펌웨어 개발](./docs/09_03_01_MCU.md)
+- [ ] [싱글 보드 컴퓨터 (SBC): Raspberry Pi, Jetson Nano - 리눅스 기반 로봇 제어](./docs/09_03_02_SBC.md)
+- [ ] [실시간 운영체제 (RTOS): FreeRTOS, Zephyr - 실시간성 보장](./docs/09_03_03_RTOS.md)
 
 ## 파트 10: AI 기반 로봇 응용 (AI-Powered Robotic Applications)
 
 ### 10.1. 자율 이동 로봇 (Autonomous Mobile Robots, AMR) & 자율주행
-- [x] **[인식 (Perception)](./docs/10_01_01_Perception.md):**
-  - [x] 카메라, LiDAR 데이터 처리 및 융합 (파트 4.3 CV, 파트 8.5 센서 연계)
-  - [x] 센서 퓨전 심화: 칼만 필터(Kalman Filter), 확장 칼만 필터(EKF)
-- [x] **[위치 추정 및 지도 작성 (Localization & Mapping)](./docs/10_01_02_Localization_and_Mapping.md):**
-  - [x] SLAM (Simultaneous Localization and Mapping) 알고리즘: EKF SLAM, Particle Filter SLAM, GraphSLAM
-  - [x] 주요 SLAM 기술: Visual SLAM (ORB-SLAM), LiDAR SLAM (GMapping, Cartographer)
-- [x] **[경로 및 모션 계획 (Path & Motion Planning)](./docs/10_01_03_Path_and_Motion_Planning.md):**
-  - [x] 전역 경로 계획 (Global Path Planning): Dijkstra, A*
-  - [x] 지역 경로 계획 (Local Path Planning): Dynamic Window Approach (DWA), Timed Elastic Band (TEB)
-  - [x] 샘플링 기반 계획 (Sampling-based Planning): RRT, RRT*
-- [x] **[자율주행 심화](./docs/10_01_04_Advanced_Autonomous_Driving.md):**
-  - [x] 행동 계획 (Behavioral Planning): 유한 상태 머신(FSM)
-  - [x] 움직임 예측 (Motion Prediction)
+- [ ] **[인식 (Perception)](./docs/10_01_01_Perception.md):**
+  - [ ] 카메라, LiDAR 데이터 처리 및 융합 (파트 4.3 CV, 파트 8.5 센서 연계)
+  - [ ] 센서 퓨전 심화: 칼만 필터(Kalman Filter), 확장 칼만 필터(EKF)
+- [ ] **[위치 추정 및 지도 작성 (Localization & Mapping)](./docs/10_01_02_Localization_and_Mapping.md):**
+  - [ ] SLAM (Simultaneous Localization and Mapping) 알고리즘: EKF SLAM, Particle Filter SLAM, GraphSLAM
+  - [ ] 주요 SLAM 기술: Visual SLAM (ORB-SLAM), LiDAR SLAM (GMapping, Cartographer)
+- [ ] **[경로 및 모션 계획 (Path & Motion Planning)](./docs/10_01_03_Path_and_Motion_Planning.md):**
+  - [ ] 전역 경로 계획 (Global Path Planning): Dijkstra, A*
+  - [ ] 지역 경로 계획 (Local Path Planning): Dynamic Window Approach (DWA), Timed Elastic Band (TEB)
+  - [ ] 샘플링 기반 계획 (Sampling-based Planning): RRT, RRT*
+- [ ] **[자율주행 심화](./docs/10_01_04_Advanced_Autonomous_Driving.md):**
+  - [ ] 행동 계획 (Behavioral Planning): 유한 상태 머신(FSM)
+  - [ ] 움직임 예측 (Motion Prediction)
 
 ### 10.2. 로봇 매니퓰레이션 (Robot Manipulation)
-- [x] **[파지 (Grasping)](./docs/10_02_01_Grasping.md):**
-  - [x] 2D/3D 객체 인식 및 자세 추정 (파트 4.3 CV 연계)
-  - [x] 안정적인 파지 계획 (Stable Grasp Planning)
-- [x] **[작업 계획 (Task Planning)](./docs/10_02_02_Task_Planning.md):**
-  - [x] Pick-and-Place 작업 순서 계획
-  - [x] 조립(Assembly)을 위한 모션 계획
-- [x] **[AI 기반 제어](./docs/10_02_03_AI_based_Control.md):**
-  - [x] 모방 학습 (Imitation Learning): Behavior Cloning, DAgger
-  - [x] 강화학습 기반 매니퓰레이션 (파트 5 RL 연계): 희소 보상 문제, Sim-to-Real 전달
+- [ ] **[파지 (Grasping)](./docs/10_02_01_Grasping.md):**
+  - [ ] 2D/3D 객체 인식 및 자세 추정 (파트 4.3 CV 연계)
+  - [ ] 안정적인 파지 계획 (Stable Grasp Planning)
+- [ ] **[작업 계획 (Task Planning)](./docs/10_02_02_Task_Planning.md):**
+  - [ ] Pick-and-Place 작업 순서 계획
+  - [ ] 조립(Assembly)을 위한 모션 계획
+- [ ] **[AI 기반 제어](./docs/10_02_03_AI_based_Control.md):**
+  - [ ] 모방 학습 (Imitation Learning): Behavior Cloning, DAgger
+  - [ ] 강화학습 기반 매니퓰레이션 (파트 5 RL 연계): 희소 보상 문제, Sim-to-Real 전달
 
 ### 10.3. 항공 로보틱스 (Aerial Robotics / Drones)
-- [x] [드론 동역학 및 제어 모델](./docs/10_03_01_Drone_Dynamics_and_Control.md)
-- [x] [항법 (Navigation) 및 궤적 추종 (Trajectory Tracking)](./docs/10_03_02_Navigation_and_Trajectory_Tracking.md)
-- [x] [비전 기반 자율 비행 (Visual Servoing)](./docs/10_03_03_Visual_Servoing.md) (파트 4.3 CV 연계)
-- [x] [다중 드론 시스템 (Multi-drone Systems) 및 군집 비행 (Swarm Flight)](./docs/10_03_04_Multi_drone_Systems.md)
+- [ ] [드론 동역학 및 제어 모델](./docs/10_03_01_Drone_Dynamics_and_Control.md)
+- [ ] [항법 (Navigation) 및 궤적 추종 (Trajectory Tracking)](./docs/10_03_02_Navigation_and_Trajectory_Tracking.md)
+- [ ] [비전 기반 자율 비행 (Visual Servoing)](./docs/10_03_03_Visual_Servoing.md) (파트 4.3 CV 연계)
+- [ ] [다중 드론 시스템 (Multi-drone Systems) 및 군집 비행 (Swarm Flight)](./docs/10_03_04_Multi_drone_Systems.md)
 
 ### 10.4. 휴머노이드 및 다리 로봇 (Humanoids and Legged Robots)
-- [x] [보행 패턴 생성 (Gait Generation) 및 안정성](./docs/10_04_01_Gait_Generation.md)
-- [x] [전신 동역학 및 제어 (Whole-Body Dynamics and Control)](./docs/10_04_02_Whole_Body_Control.md)
-- [x] [균형 제어 (Balance Control): Zero Moment Point (ZMP)](./docs/10_04_03_Balance_Control_ZMP.md)
-- [x] [강화학습 기반 보행 및 동작 생성 (파트 5 RL 연계)](./docs/10_04_04_RL_based_Motion.md)
+- [ ] [보행 패턴 생성 (Gait Generation) 및 안정성](./docs/10_04_01_Gait_Generation.md)
+- [ ] [전신 동역학 및 제어 (Whole-Body Dynamics and Control)](./docs/10_04_02_Whole_Body_Control.md)
+- [ ] [균형 제어 (Balance Control): Zero Moment Point (ZMP)](./docs/10_04_03_Balance_Control_ZMP.md)
+- [ ] [강화학습 기반 보행 및 동작 생성 (파트 5 RL 연계)](./docs/10_04_04_RL_based_Motion.md)
