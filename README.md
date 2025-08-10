@@ -4,6 +4,7 @@
 
 ### 1.1. 수학 (Mathematics)
 
+
 #### 1.1.1. [선형대수 (Linear Algebra)](./docs/01_01_Linear_Algebra.md)
 - [ ] 스칼라, 벡터, 행렬, 텐서의 이해
 - [ ] 행렬 연산 (덧셈, 뺄셈, 곱셈, 전치)
@@ -13,6 +14,7 @@
 - [ ] 고유값(Eigenvalues)과 고유벡터(Eigenvectors)
 - [ ] 특이값 분해 (Singular Value Decomposition, SVD)
 - [ ] 주성분 분석 (Principal Component Analysis, PCA) - 기초 개념
+
 
 #### 1.1.2. [미적분 (Calculus)](./docs/01_02_Calculus.md)
 - [ ] 극한(Limits)과 연속(Continuity)
