@@ -282,51 +282,51 @@
 ## 파트 7: 심화 주제 및 전문 분야 (Advanced Topics & Specializations)
 
 ### 7.1. 자연어 처리 심화 (Advanced Natural Language Processing, NLP)
-- [ ] **텍스트 임베딩 (Text Embeddings):**
-  - [ ] **Word2Vec, GloVe, FastText:** 단어 수준의 벡터 표현
-  - [ ] **Contextual Embeddings:** ELMo, BERT, GPT
-- [ ] **주요 NLP 과제:**
-  - [ ] **감성 분석 (Sentiment Analysis)**
-  - [ ] **개체명 인식 (Named Entity Recognition, NER)**
-  - [ ] **토픽 모델링 (Topic Modeling):** Latent Dirichlet Allocation (LDA)
-  - [ ] **기계 번역 (Machine Translation)**
-  - [ ] **텍스트 요약 (Text Summarization)**
-  - [ ] **질의응답 시스템 (Question Answering Systems)**
+- [x] [**텍스트 임베딩 (Text Embeddings)**](./docs/07_01_01_Text_Embeddings.md)
+  - [x] Word2Vec, GloVe, FastText: 단어 수준의 벡터 표현
+  - [x] Contextual Embeddings: ELMo, BERT, GPT
+- [x] [**주요 NLP 과제**](./docs/07_01_02_NLP_Tasks.md)
+  - [x] 감성 분석 (Sentiment Analysis)
+  - [x] 개체명 인식 (Named Entity Recognition, NER)
+  - [x] 토픽 모델링 (Topic Modeling): Latent Dirichlet Allocation (LDA)
+  - [x] 기계 번역 (Machine Translation)
+  - [x] 텍스트 요약 (Text Summarization)
+  - [x] 질의응답 시스템 (Question Answering Systems)
 
 ### 7.2. 컴퓨터 비전 심화 (Advanced Computer Vision, CV)
-- [ ] **전이 학습 (Transfer Learning) 및 미세 조정 (Fine-tuning):** 사전 훈련된 모델 활용
-- [ ] **이미지 생성 (Image Generation) 및 스타일 변환 (Style Transfer)**
-- [ ] **Semantic/Instance Segmentation 심화**
-- [ ] **3D 비전 (3D Vision)**
-- [ ] **비디오 분석 (Video Analysis)**
+- [x] [**전이 학습 (Transfer Learning) 및 미세 조정 (Fine-tuning)**](./docs/07_02_01_Transfer_Learning_and_Fine_tuning.md): 사전 훈련된 모델 활용
+- [x] [**이미지 생성 (Image Generation) 및 스타일 변환 (Style Transfer)**](./docs/07_02_02_Image_Generation_and_Style_Transfer.md)
+- [x] [**Semantic/Instance Segmentation 심화**](./docs/07_02_03_Advanced_Segmentation.md)
+- [x] [**3D 비전 (3D Vision)**](./docs/07_02_04_3D_Vision.md)
+- [x] [**비디오 분석 (Video Analysis)**](./docs/07_02_05_Video_Analysis.md)
 
 ### 7.3. 추천 시스템 (Recommender Systems)
-- [ ] **콘텐츠 기반 필터링 (Content-Based Filtering)**
-- [ ] **협업 필터링 (Collaborative Filtering):**
-  - [ ] **최근접 이웃 기반 (Neighborhood-based)**
-  - [ ] **잠재 요인 모델 (Latent Factor Models):** 행렬 분해 (Matrix Factorization), SVD
-- [ ] **딥러닝 기반 추천 시스템 (Deep Learning-based Recommender Systems)**
-- [ ] **하이브리드 모델 (Hybrid Models)**
+- [x] [**콘텐츠 기반 필터링 (Content-Based Filtering)**](./docs/07_03_01_Content_Based_Filtering.md)
+- [x] [**협업 필터링 (Collaborative Filtering)**](./docs/07_03_02_Collaborative_Filtering.md)
+  - [x] 최근접 이웃 기반 (Neighborhood-based)
+  - [x] 잠재 요인 모델 (Latent Factor Models): 행렬 분해 (Matrix Factorization), SVD
+- [x] [**딥러닝 기반 추천 시스템 (Deep Learning-based Recommender Systems)**](./docs/07_03_03_Deep_Learning_based_Recommender_Systems.md)
+- [x] [**하이브리드 모델 (Hybrid Models)**](./docs/07_03_04_Hybrid_Models.md)
 
 ### 7.4. 시계열 분석 (Time Series Analysis)
-- [ ] **전통적 시계열 모델:**
-  - [ ] **AR (Autoregressive), MA (Moving Average), ARMA, ARIMA, SARIMA**
-- [ ] **딥러닝 기반 시계열 모델:**
-  - [ ] **RNNs, LSTMs, GRUs for Time Series Forecasting**
-- [ ] **기타 모델:** Facebook Prophet, N-BEATS
+- [x] [**전통적 시계열 모델**](./docs/07_04_01_Traditional_Time_Series_Models.md)
+  - [x] AR (Autoregressive), MA (Moving Average), ARMA, ARIMA, SARIMA
+- [x] [**딥러닝 기반 시계열 모델**](./docs/07_04_02_Deep_Learning_based_Time_Series_Models.md)
+  - [x] RNNs, LSTMs, GRUs for Time Series Forecasting
+- [x] [**기타 모델**](./docs/07_04_03_Other_Time_Series_Models.md): Facebook Prophet, N-BEATS
 
 ### 7.5. 책임감 있고 윤리적인 AI (Responsible & Ethical AI)
-- [ ] **AI의 편향성과 공정성 (Bias and Fairness in AI):**
-  - [ ] 편향의 종류와 탐지 방법
-  - [ ] 공정성 지표 및 완화 기법
-- [ ] **설명 가능한 AI (Explainable AI, XAI):**
-  - [ ] 모델의 예측을 인간이 이해할 수 있도록 설명
-  - [ ] **LIME (Local Interpretable Model-agnostic Explanations)**
-  - [ ] **SHAP (SHapley Additive exPlanations)**
-- [ ] **프라이버시 보호 (Privacy in AI):**
-  - [ ] **연합 학습 (Federated Learning)**
-  - [ ] **차등 정보보호 (Differential Privacy)**
-- [ ] **AI 안전성 (AI Safety):** AI 시스템의 의도치 않은 행동 방지
+- [x] [**AI의 편향성과 공정성 (Bias and Fairness in AI)**](./docs/07_05_01_Bias_and_Fairness_in_AI.md)
+  - [x] 편향의 종류와 탐지 방법
+  - [x] 공정성 지표 및 완화 기법
+- [x] [**설명 가능한 AI (Explainable AI, XAI)**](./docs/07_05_02_Explainable_AI_XAI.md)
+  - [x] 모델의 예측을 인간이 이해할 수 있도록 설명
+  - [x] LIME (Local Interpretable Model-agnostic Explanations)
+  - [x] SHAP (SHapley Additive exPlanations)
+- [x] [**프라이버시 보호 (Privacy in AI)**](./docs/07_05_03_Privacy_in_AI.md)
+  - [x] 연합 학습 (Federated Learning)
+  - [x] 차등 정보보호 (Differential Privacy)
+- [x] [**AI 안전성 (AI Safety)**](./docs/07_05_04_AI_Safety.md): AI 시스템의 의도치 않은 행동 방지
 
 ## 파트 8: 로봇공학 기초 (Robotics Foundations)
 
