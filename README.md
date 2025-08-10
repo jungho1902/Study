@@ -53,9 +53,9 @@
 - [ ] [객체 지향 프로그래밍 (OOP) 기초 (클래스, 객체)](./docs/01_05_04_OOP_Basics.md)
 - [ ] [파일 입출력](./docs/01_05_05_File_IO.md)
 - [ ] 필수 라이브러리:
-  - [ ] **NumPy**: 다차원 배열 및 행렬 연산
-  - [ ] **Pandas**: 데이터 조작 및 분석 (DataFrame, Series)
-  - [ ] **Matplotlib/Seaborn**: 데이터 시각화
+  - [ ] [**NumPy**: 다차원 배열 및 행렬 연산](./docs/01_05_06_Numpy.md)
+  - [ ] [**Pandas**: 데이터 조작 및 분석 (DataFrame, Series)](./docs/01_05_07_Pandas.md)
+  - [ ] [**Matplotlib/Seaborn**: 데이터 시각화](./docs/01_05_08_Matplotlib_Seaborn.md)
 
 #### 1.2.2. 자료구조 및 알고리즘 (Data Structures & Algorithms)
 - [ ] 시간 복잡도와 공간 복잡도 (Big O 표기법)
