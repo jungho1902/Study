@@ -8,12 +8,14 @@
 #### 1.1.1. 선형대수 (Linear Algebra)
 - [ ] [스칼라, 벡터, 행렬, 텐서의 이해](./docs/01_01_01_Scalar_Vector_Matrix_Tensor.md)
 - [x] [행렬 연산 (덧셈, 뺄셈, 곱셈, 전치)](./docs/01_01_02_Matrix_Operations.md)
-- [x] [내적(Dot Product) 및 외적(Cross Product)](./docs/01_01_03_Dot_Product_and_Cross_Product.md)
-- [x] [단위행렬(Identity Matrix)과 역행렬(Inverse Matrix)](./docs/01_01_04_Identity_and_Inverse_Matrix.md)
-- [x] [행렬식(Determinant)](./docs/01_01_05_Determinant.md)
-- [x] [고유값(Eigenvalues)과 고유벡터(Eigenvectors)](./docs/01_01_06_Eigenvalues_and_Eigenvectors.md)
-- [x] [특이값 분해 (Singular Value Decomposition, SVD)](./docs/01_01_07_Singular_Value_Decomposition.md)
-- [x] [주성분 분석 (Principal Component Analysis, PCA) - 기초 개념](./docs/01_01_08_Principal_Component_Analysis.md)
+
+- [ ] [내적(Dot Product) 및 외적(Cross Product)](./docs/01_01_03_Dot_Product_and_Cross_Product.md)
+- [ ] [단위행렬(Identity Matrix)과 역행렬(Inverse Matrix)](./docs/01_01_04_Identity_and_Inverse_Matrix.md)
+- [ ] [행렬식(Determinant)](./docs/01_01_05_Determinant.md)
+- [ ] [고유값(Eigenvalues)과 고유벡터(Eigenvectors)](./docs/01_01_06_Eigenvalues_and_Eigenvectors.md)
+- [ ] [특이값 분해 (Singular Value Decomposition, SVD)](./docs/01_01_07_Singular_Value_Decomposition.md)
+- [ ] [주성분 분석 (Principal Component Analysis, PCA) - 기초 개념](./docs/01_01_08_Principal_Component_Analysis.md)
+
 
 
 #### 1.1.2. 미적분 (Calculus)
