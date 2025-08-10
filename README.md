@@ -241,43 +241,54 @@
 ## 파트 5: 강화학습 (Reinforcement Learning)
 
 ### 5.1. 강화학습 기초 (Fundamentals of Reinforcement Learning)
-- [ ] **주요 구성요소:** 에이전트(Agent), 환경(Environment), 상태(State), 행동(Action), 보상(Reward)
-- [ ] **정책 (Policy):** 상태에 따라 에이전트가 행동을 결정하는 방식 (π)
-- [ ] **가치 함수 (Value Function):** 특정 상태 또는 상태-행동 쌍의 가치를 평가 (V-function, Q-function)
-- [ ] **모델 (Model):** 환경이 어떻게 동작할지 예측 (상태 전이, 보상)
-- [ ] **탐험과 활용의 딜레마 (Exploration vs. Exploitation Tradeoff)**
+- [ ] **주요 구성요소:** 학습의 주체인 **에이전트(Agent)**가 **환경(Environment)**과 상호작용하며, 특정 시점의 상황을 **상태(State)**라고 합니다. 에이전트는 상태를 관찰하고 **행동(Action)**을 취하며, 그 결과로 환경으로부터 **보상(Reward)**과 다음 상태를 받습니다. 이 과정을 반복하며 누적 보상을 최대화하는 것이 목표입니다.
+- [ ] **정책 (Policy):** 특정 상태(State)에서 어떤 행동(Action)을 할지 결정하는 전략 또는 규칙입니다. 정책은 보통 π로 표기하며, 결정론적 정책(deterministic policy)과 확률적 정책(stochastic policy)으로 나뉩니다. 강화학습의 목표는 최적의 정책(optimal policy)을 찾는 것입니다.
+- [ ] **가치 함수 (Value Function):** 특정 상태 또는 특정 상태에서 특정 행동을 했을 때, 앞으로 받을 것으로 기대되는 보상의 총합(누적 보상)을 의미합니다.
+  - **상태 가치 함수 (V-function, Vπ(s)):** 정책 π를 따를 때, 상태 s의 가치.
+  - **행동 가치 함수 (Q-function, Qπ(s, a)):** 정책 π를 따를 때, 상태 s에서 행동 a를 했을 때의 가치.
+- [ ] **모델 (Model):** 환경이 어떻게 동작할지 예측하는 것을 의미합니다. 구체적으로, 현재 상태와 행동이 주어졌을 때 다음 상태와 보상을 예측합니다. 모델을 아는 경우(Model-based)와 모르는 경우(Model-free)에 따라 강화학습 알고리즘이 나뉩니다.
+- [ ] **탐험과 활용의 딜레마 (Exploration vs. Exploitation Tradeoff):**
+  - **활용 (Exploitation):** 현재까지의 경험을 바탕으로 가장 좋다고 알려진 행동을 선택하는 것.
+  - **탐험 (Exploration):** 더 나은 선택지를 찾기 위해 새로운 행동을 시도하는 것.
+  - 강화학습 에이전트는 단기적인 보상을 극대화하기 위한 '활용'과 장기적으로 더 나은 정책을 찾기 위한 '탐험' 사이에서 균형을 맞춰야 합니다.
 
 ### 5.2. 마르코프 결정 과정 (Markov Decision Processes, MDP)
-- [ ] **마르코프 속성 (Markov Property):** 현재 상태가 과거의 모든 정보를 포함
-- [ ] **구성요소:** 상태(S), 행동(A), 상태 전이 확률(P), 보상 함수(R), 감가율(γ)
-- [ ] **벨만 방정식 (Bellman Equations):**
-  - [ ] **벨만 기대 방정식 (Bellman Expectation Equation):** 현재 가치와 다음 상태 가치의 관계
-  - [ ] **벨만 최적 방정식 (Bellman Optimality Equation):** 최적 가치 함수를 찾기 위한 방정식
+- [ ] **마르코프 속성 (Markov Property):** 미래의 상태는 오직 현재 상태에만 의존하며, 과거의 상태와는 무관하다는 가정입니다. 즉, "현재 상태가 과거의 모든 정보를 압축하여 담고 있다"는 의미입니다. 강화학습 문제는 대부분 MDP를 통해 수학적으로 모델링됩니다.
+- [ ] **구성요소:** MDP는 (S, A, P, R, γ)의 튜플로 정의됩니다.
+  - **S (States):** 가능한 모든 상태의 집합.
+  - **A (Actions):** 에이전트가 취할 수 있는 모든 행동의 집합.
+  - **P (State Transition Probability):** 상태 s에서 행동 a를 취했을 때, 다음 상태 s'으로 전이될 확률. (P(s' | s, a))
+  - **R (Reward Function):** 상태 s에서 행동 a를 취해 다음 상태 s'에 도달했을 때 받는 즉각적인 보상. (R(s, a, s'))
+  - **γ (Discount Factor):** 감가율. 0과 1 사이의 값으로, 미래 보상을 현재 가치로 환산할 때 얼마나 할인할지를 결정합니다. 1에 가까울수록 미래 보상을 중시하고, 0에 가까울수록 현재 보상을 중시합니다.
+- [ ] **벨만 방정식 (Bellman Equations):** 현재 상태의 가치 함수와 다음 상태의 가치 함수 사이의 관계를 나타내는 방정식으로, 강화학습의 핵심을 이룹니다.
+  - [ ] **벨만 기대 방정식 (Bellman Expectation Equation):** 특정 정책 π를 따를 때, 가치 함수들(V-function, Q-function)이 만족해야 하는 관계식입니다. 재귀적인 형태로 표현되어, 현재 상태의 가치를 다음 상태의 가치와 보상으로 계산할 수 있게 해줍니다.
+  - [ ] **벨만 최적 방정식 (Bellman Optimality Equation):** 최적 정책(optimal policy)을 따를 때의 가치 함수(최적 가치 함수)가 만족하는 관계식입니다. 이 방정식을 풀면, 에이전트가 각 상태에서 어떤 행동을 취해야 누적 보상을 최대로 할 수 있는지를 알 수 있습니다.
 
 ### 5.3. 주요 강화학습 알고리즘 (Key Reinforcement Learning Algorithms)
 
 #### 5.3.1. 모델 프리 학습 (Model-Free Learning)
-- [ ] 환경의 모델(상태 전이, 보상)을 모르는 상태에서 학습
+- [ ] 환경의 모델(상태 전이 확률, 보상 함수)을 알지 못한 채, 에이전트가 환경과 직접 상호작용하며 얻는 경험(상태, 행동, 보상 샘플)을 통해 학습하는 방식입니다. 대부분의 현실 문제는 모델을 정확히 알기 어려우므로 모델 프리 방식이 널리 사용됩니다.
 
 #### 5.3.2. 가치 기반 학습 (Value-Based Learning)
-- [ ] 최적 가치 함수를 학습하여 최적 정책을 유도
-- [ ] **Q-러닝 (Q-Learning):** 오프-폴리시(Off-policy) 학습
-- [ ] **SARSA (State-Action-Reward-State-Action):** 온-폴리시(On-policy) 학습
-- [ ] **심층 Q-네트워크 (Deep Q-Network, DQN):** 신경망을 이용해 Q-함수를 근사
-  - [ ] **Experience Replay, Target Network**
+- [ ] 최적 행동 가치 함수(Optimal Q-function)를 학습하고, 이를 통해 간접적으로 최적 정책을 따르는 방식입니다. 즉, 각 상태에서 어떤 행동의 가치가 가장 높은지를 학습하여, 가장 가치가 높은 행동을 선택하는 정책(예: ε-greedy policy)을 사용합니다.
+- [ ] **Q-러닝 (Q-Learning):** 대표적인 오프-폴리시(Off-policy) 시간차 학습(Temporal-Difference Learning) 알고리즘입니다. '오프-폴리시'란, 행동을 선택하는 정책과 학습(가치 함수 업데이트)에 사용되는 정책이 다를 수 있음을 의미합니다. Q-러닝은 실제 에이전트가 어떤 행동을 하든, 항상 최적이라고 가정되는 행동(최대 Q값)을 이용해 Q함수를 업데이트합니다.
+- [ ] **SARSA (State-Action-Reward-State-Action):** 대표적인 온-폴리시(On-policy) 시간차 학습 알고리즘입니다. 이름처럼 (S, A, R, S', A')의 샘플을 이용해 학습하며, '온-폴리시'는 행동을 선택하는 정책과 학습에 사용되는 정책이 동일함을 의미합니다. 즉, 실제로 에이전트가 다음 상태(S')에서 선택한 행동(A')을 기준으로 현재 Q함수를 업데이트합니다.
+- [ ] **심층 Q-네트워크 (Deep Q-Network, DQN):** Q-러닝에 심층 신경망(Deep Neural Network)을 결합한 알고리즘입니다. 상태 공간이 매우 크거나 연속적인 문제(예: 아타리 게임)에서 Q-테이블을 사용할 수 없을 때, 신경망을 이용해 Q-함수를 근사합니다.
+  - [ ] **경험 재현 (Experience Replay):** 에이전트의 경험(s, a, r, s')을 리플레이 버퍼에 저장해두고, 학습 시 무작위로 샘플을 추출하여 사용합니다. 이를 통해 데이터 샘플 간의 상관관계를 줄여 학습 안정성을 높입니다.
+  - [ ] **타겟 네트워크 (Target Network):** Q함수 업데이트 시, 목표(Target) Q값을 계산하는 네트워크를 별도로 두어 주기적으로 업데이트하는 기법입니다. 이를 통해 업데이트 목표값이 계속 변하는 문제를 완화하여 학습을 안정시킵니다.
 
 #### 5.3.3. 정책 기반 학습 (Policy-Based Learning)
-- [ ] 최적 정책을 직접 학습
-- [ ] **정책 경사 (Policy Gradient, PG):** 정책의 성능을 나타내는 목적 함수를 경사 상승법으로 최적화
-- [ ] **REINFORCE 알고리즘**
+- [ ] 가치 함수를 거치지 않고, 최적의 정책(Policy)을 직접적으로 학습하는 방식입니다. 정책은 보통 파라미터 θ로 표현된 함수(πθ)로 나타내며, 이 파라미터를 업데이트하여 정책을 개선합니다. 연속적인 행동 공간을 다루거나, 확률적인 정책이 필요할 때 효과적입니다.
+- [ ] **정책 경사 (Policy Gradient, PG):** 정책의 좋음(성능)을 나타내는 목적 함수(J(θ))를 정의하고, 이 목적 함수를 크게 만드는 방향(Gradient Ascent)으로 정책 파라미터 θ를 업데이트하는 기법입니다. "좋은 행동"의 확률은 높이고 "나쁜 행동"의 확률은 낮추도록 학습합니다.
+- [ ] **REINFORCE 알고리즘:** 가장 기본적인 정책 경사 알고리즘입니다. 에피소드(episode)가 끝난 후에 얻어진 전체 보상(Return)을 이용해 정책을 업데이트합니다. 이 때문에 학습의 분산(variance)이 크고 수렴이 느릴 수 있다는 단점이 있습니다.
 
 #### 5.3.4. 액터-크리틱 (Actor-Critic Methods)
-- [ ] 가치 기반과 정책 기반 학습의 결합
-- [ ] **액터 (Actor):** 정책을 학습 (어떻게 행동할지 결정)
-- [ ] **크리틱 (Critic):** 가치 함수를 학습 (액터가 한 행동을 평가)
-- [ ] **A2C (Advantage Actor-Critic) / A3C (Asynchronous Advantage Actor-Critic)**
-- [ ] **DDPG (Deep Deterministic Policy Gradient):** 연속적인 행동 공간에서 사용
-- [ ] **SAC (Soft Actor-Critic)**
+- [ ] 정책 기반 학습(Policy-Based)과 가치 기반 학습(Value-Based)을 결합한 방법입니다. 정책 경사 방법의 높은 분산 문제를 해결하기 위해 도입되었습니다.
+- [ ] **액터 (Actor):** 정책을 직접 학습하며, 어떤 행동(action)을 할지를 결정합니다. (정책 기반)
+- [ ] **크리틱 (Critic):** 액터가 선택한 행동이 얼마나 좋았는지를 평가(critique)합니다. 즉, 가치 함수를 학습하여 액터의 학습을 돕습니다. (가치 기반)
+- [ ] **A2C (Advantage Actor-Critic) / A3C (Asynchronous Advantage Actor-Critic):** 액터-크리틱의 대표적인 알고리즘입니다. 크리틱이 Q함수 대신 어드밴티지 함수(Advantage Function, A(s,a) = Q(s,a) - V(s))를 사용하여 학습의 분산을 줄입니다. A3C는 여러 개의 에이전트를 병렬(asynchronous)로 실행하여 더 빠르고 안정적으로 학습하는 방식입니다.
+- [ ] **DDPG (Deep Deterministic Policy Gradient):** DQN을 연속적인(continuous) 행동 공간에 적용하기 위해 개발된 오프-폴리시 액터-크리틱 알고리즘입니다. 이름처럼 결정론적 정책(deterministic policy)을 사용하며, 경험 재현과 타겟 네트워크 기법을 모두 사용합니다.
+- [ ] **SAC (Soft Actor-Critic):** 탐험(Exploration)을 장려하기 위해 엔트로피(entropy) 개념을 도입한 오프-폴리시 액터-크리틱 알고리즘입니다. 보상(reward)뿐만 아니라 정책의 엔트로피까지 최대화하는 것을 목표로 하여, 더 안정적이고 효율적인 탐험을 수행합니다.
 
 ## 파트 6: MLOps (Machine Learning Operations)
 
