@@ -138,12 +138,12 @@
 - [ ] [**R² (R-squared):** 결정 계수 (모델의 설명력)](./docs/03_03_02_Regression_Metrics.md)
 
 #### 3.3.3. 분류 모델 평가 지표 (Classification Metrics)
-- [ ] **혼동 행렬 (Confusion Matrix):** TP, FP, FN, TN
-- [ ] **정확도 (Accuracy):** 전체 예측 중 올바른 예측의 비율
-- [ ] **정밀도 (Precision):** Positive로 예측한 것 중 실제 Positive의 비율
-- [ ] **재현율 (Recall) / 민감도 (Sensitivity):** 실제 Positive 중 Positive로 예측한 비율
-- [ ] **F1 점수 (F1-Score):** 정밀도와 재현율의 조화 평균
-- [ ] **ROC 곡선과 AUC (Area Under the Curve):** 분류 모델의 성능을 종합적으로 평가
+- [ ] [**혼동 행렬 (Confusion Matrix):** TP, FP, FN, TN](./docs/03_03_03_Classification_Metrics.md)
+- [ ] [**정확도 (Accuracy):** 전체 예측 중 올바른 예측의 비율](./docs/03_03_03_Classification_Metrics.md)
+- [ ] [**정밀도 (Precision):** Positive로 예측한 것 중 실제 Positive의 비율](./docs/03_03_03_Classification_Metrics.md)
+- [ ] [**재현율 (Recall) / 민감도 (Sensitivity):** 실제 Positive 중 Positive로 예측한 비율](./docs/03_03_03_Classification_Metrics.md)
+- [ ] [**F1 점수 (F1-Score):** 정밀도와 재현율의 조화 평균](./docs/03_03_03_Classification_Metrics.md)
+- [ ] [**ROC 곡선과 AUC (Area Under the Curve):** 분류 모델의 성능을 종합적으로 평가](./docs/03_03_03_Classification_Metrics.md)
 
 ## 파트 4: 딥러닝 (Deep Learning)
 
