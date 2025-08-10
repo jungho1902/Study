@@ -127,9 +127,9 @@
 ### 3.3. 모델 평가 및 성능 향상 (Model Evaluation & Enhancement)
 
 #### 3.3.1. 핵심 개념 (Key Concepts)
-- [ ] **과대적합 (Overfitting) 과 과소적합 (Underfitting):** 모델의 일반화 능력
-- [ ] **편향-분산 트레이드오프 (Bias-Variance Tradeoff):** 모델 복잡도와의 관계
-- [ ] **교차 검증 (Cross-Validation):** K-Fold, Stratified K-Fold
+- [ ] [**과대적합 (Overfitting) 과 과소적합 (Underfitting):** 모델의 일반화 능력](./docs/03_03_01_Over_Under_Fitting.md)
+- [ ] [**편향-분산 트레이드오프 (Bias-Variance Tradeoff):** 모델 복잡도와의 관계](./docs/03_03_02_Bias_Variance_Tradeoff.md)
+- [ ] [**교차 검증 (Cross-Validation):** K-Fold, Stratified K-Fold](./docs/03_03_03_Cross_Validation.md)
 
 #### 3.3.2. 회귀 모델 평가 지표 (Regression Metrics)
 - [ ] **MAE (Mean Absolute Error):** 평균 절대 오차
