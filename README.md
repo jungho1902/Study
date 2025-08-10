@@ -132,10 +132,10 @@
 - [ ] [**교차 검증 (Cross-Validation):** K-Fold, Stratified K-Fold](./docs/03_03_03_Cross_Validation.md)
 
 #### 3.3.2. 회귀 모델 평가 지표 (Regression Metrics)
-- [ ] **MAE (Mean Absolute Error):** 평균 절대 오차
-- [ ] **MSE (Mean Squared Error):** 평균 제곱 오차
-- [ ] **RMSE (Root Mean Squared Error):** 평균 제곱근 오차
-- [ ] **R² (R-squared):** 결정 계수 (모델의 설명력)
+- [ ] [**MAE (Mean Absolute Error):** 평균 절대 오차](./docs/03_03_02_Regression_Metrics.md)
+- [ ] [**MSE (Mean Squared Error):** 평균 제곱 오차](./docs/03_03_02_Regression_Metrics.md)
+- [ ] [**RMSE (Root Mean Squared Error):** 평균 제곱근 오차](./docs/03_03_02_Regression_Metrics.md)
+- [ ] [**R² (R-squared):** 결정 계수 (모델의 설명력)](./docs/03_03_02_Regression_Metrics.md)
 
 #### 3.3.3. 분류 모델 평가 지표 (Classification Metrics)
 - [ ] **혼동 행렬 (Confusion Matrix):** TP, FP, FN, TN
