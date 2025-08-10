@@ -26,15 +26,15 @@
 - [ ] [시그모이드(Sigmoid), ReLU 등 활성화 함수의 미분](./docs/01_02_07_Activation_Function_Derivatives.md)
 
 #### 1.1.3. 확률 및 통계 (Probability & Statistics)
-- [ ] 기본적인 확률 이론 (사건, 표본 공간, 조건부 확률)
-- [ ] 베이즈 정리 (Bayes' Theorem)
-- [ ] 확률 변수 (Random Variables)
-- [ ] 확률 분포 (균등, 정규, 베르누이, 이항, 포아송 분포)
-- [ ] 기댓값(Expected Value), 분산(Variance), 표준편차(Standard Deviation)
-- [ ] 중심극한정리 (Central Limit Theorem)
-- [ ] 기술 통계 (Descriptive Statistics): 평균, 중앙값, 최빈값
-- [ ] 추론 통계 (Inferential Statistics): 가설 검정, 신뢰 구간
-- [ ] 최대 가능도 추정 (Maximum Likelihood Estimation, MLE)
+- [x] [기본적인 확률 이론 (사건, 표본 공간, 조건부 확률)](./docs/01_03_01_Basic_Probability_Theory.md)
+- [x] [베이즈 정리 (Bayes' Theorem)](./docs/01_03_02_Bayes_Theorem.md)
+- [x] [확률 변수 (Random Variables)](./docs/01_03_03_Random_Variables.md)
+- [x] [확률 분포 (균등, 정규, 베르누이, 이항, 포아송 분포)](./docs/01_03_04_Probability_Distributions.md)
+- [x] [기댓값(Expected Value), 분산(Variance), 표준편차(Standard Deviation)](./docs/01_03_05_EV_Variance_StdDev.md)
+- [x] [중심극한정리 (Central Limit Theorem)](./docs/01_03_06_Central_Limit_Theorem.md)
+- [x] [기술 통계 (Descriptive Statistics): 평균, 중앙값, 최빈값](./docs/01_03_07_Descriptive_Statistics.md)
+- [x] [추론 통계 (Inferential Statistics): 가설 검정, 신뢰 구간](./docs/01_03_08_Inferential_Statistics.md)
+- [x] [최대 가능도 추정 (Maximum Likelihood Estimation, MLE)](./docs/01_03_09_Maximum_Likelihood_Estimation.md)
 
 #### 1.1.4. 최적화 (Optimization)
 - [ ] 비용 함수 (Cost Function) / 손실 함수 (Loss Function)
