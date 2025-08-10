@@ -66,50 +66,22 @@
 ## 파트 2: 인공지능(AI) 및 머신러닝(ML) 소개 (Introduction to AI & ML)
 
 ### 2.1. 인공지능의 역사와 발전 (History and Evolution of AI)
-- [ ] 튜링 테스트와 AI의 탄생 (앨런 튜링)
-- [ ] 다트머스 회의: '인공지능' 용어의 등장
-- [ ] AI의 황금기와 암흑기 (AI Winters)
-- [ ] 전문가 시스템(Expert Systems)의 시대
-- [ ] 머신러닝의 부상과 딥러닝 혁명
+- [x] [튜링 테스트와 AI의 탄생 (앨런 튜링)](./docs/02_01_01_Turing_Test_and_Birth_of_AI.md)
+- [x] [다트머스 회의: '인공지능' 용어의 등장](./docs/02_01_02_Dartmouth_Conference.md)
+- [x] [AI의 황금기와 암흑기 (AI Winters)](./docs/02_01_03_AI_Golden_Age_and_Winter.md)
+- [x] [전문가 시스템(Expert Systems)의 시대](./docs/02_01_04_Expert_Systems.md)
+- [x] [머신러닝의 부상과 딥러닝 혁명](./docs/02_01_05_Rise_of_ML_and_Deep_Learning.md)
 
 ### 2.2. AI, 머신러닝, 딥러닝의 관계 (Relationship between AI, ML, and Deep Learning)
-- [ ] 인공지능 (Artificial Intelligence): 기계가 인간의 지능을 모방하도록 하는 포괄적인 개념
-- [ ] 머신러닝 (Machine Learning): 데이터로부터 패턴을 학습하여 스스로 성능을 향상시키는 AI의 한 분야
-- [ ] 딥러닝 (Deep Learning): 인공 신경망(Artificial Neural Networks)에 기반한 머신러닝의 한 하위 분야
+- [x] [AI, 머신러닝, 딥러닝의 관계](./docs/02_02_01_Relationship_AI_ML_DL.md)
 
 ### 2.3. 머신러닝의 종류 (Types of Machine Learning)
-
-#### 2.3.1. 지도학습 (Supervised Learning)
-- [ ] 레이블(Label)이 있는 데이터를 사용
-- [ ] **주요 과제:**
-  - [ ] **분류 (Classification):** 카테고리를 예측 (예: 스팸 메일 분류, 이미지 분류)
-  - [ ] **회귀 (Regression):** 연속적인 값을 예측 (예: 주택 가격 예측, 주가 예측)
-
-#### 2.3.2. 비지도학습 (Unsupervised Learning)
-- [ ] 레이블이 없는 데이터를 사용
-- [ ] **주요 과제:**
-  - [ ] **군집화 (Clustering):** 데이터 내의 그룹을 발견 (예: 고객 세분화)
-  - [ ] **차원 축소 (Dimensionality Reduction):** 데이터의 특성(feature) 수를 줄임
-  - [ ] **연관 규칙 학습 (Association Rule Learning):** 데이터 항목 간의 관계를 발견 (예: 장바구니 분석)
-
-#### 2.3.3. 강화학습 (Reinforcement Learning)
-- [ ] 보상(Reward)을 최대화하는 방향으로 에이전트(Agent)가 학습
-- [ ] **주요 구성요소:** 에이전트(Agent), 환경(Environment), 상태(State), 행동(Action), 보상(Reward)
-- [ ] **적용 분야:** 게임 AI (알파고), 로보틱스, 자율주행
+- [x] [지도학습 (Supervised Learning)](./docs/02_03_01_Supervised_Learning.md)
+- [x] [비지도학습 (Unsupervised Learning)](./docs/02_03_02_Unsupervised_Learning.md)
+- [x] [강화학습 (Reinforcement Learning)](./docs/02_03_03_Reinforcement_Learning.md)
 
 ### 2.4. 머신러닝 프로젝트의 전체 과정 (The Machine Learning Workflow)
-- [ ] 1. **문제 정의 (Problem Definition):** 비즈니스 목표 이해 및 ML 문제로 변환
-- [ ] 2. **데이터 수집 (Data Collection):** 필요한 데이터 확보
-- [ ] 3. **데이터 탐색 및 전처리 (Data Exploration and Preprocessing):**
-   - [ ] 탐색적 데이터 분석 (EDA)
-   - [ ] 결측치 및 이상치 처리
-   - [ ] 데이터 정규화 / 표준화
-   - [ ] 특성 공학 (Feature Engineering)
-- [ ] 4. **모델 선택 (Model Selection):** 문제에 적합한 알고리즘 선택
-- [ ] 5. **모델 훈련 (Model Training):** 훈련 데이터셋으로 모델 학습
-- [ ] 6. **모델 평가 (Model Evaluation):** 테스트 데이터셋으로 모델 성능 검증
-- [ ] 7. **하이퍼파라미터 튜닝 (Hyperparameter Tuning):** 모델 성능 최적화
-- [ ] 8. **모델 배포 및 모니터링 (Deployment and Monitoring):** 실제 환경에 모델을 적용하고 성능을 지속적으로 관리
+- [x] [머신러닝 프로젝트의 전체 과정](./docs/02_04_01_ML_Workflow.md)
 
 ## 파트 3: 핵심 머신러닝 (Core Machine Learning)
 
