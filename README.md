@@ -39,10 +39,10 @@
 - [ ] [최대 가능도 추정 (Maximum Likelihood Estimation, MLE)](./docs/01_03_09_Maximum_Likelihood_Estimation.md)
 
 #### 1.1.4. 최적화 (Optimization)
-- [ ] 비용 함수 (Cost Function) / 손실 함수 (Loss Function)
-- [ ] 경사 하강법 (Gradient Descent) 및 변형 (Stochastic, Mini-batch)
-- [ ] 볼록 최적화 (Convex Optimization)
-- [ ] 라그랑주 승수법 (Lagrange Multipliers)
+- [ ] [비용 함수 (Cost Function) / 손실 함수 (Loss Function)](./docs/01_04_01_Cost_Loss_Function.md)
+- [ ] [경사 하강법 (Gradient Descent) 및 변형 (Stochastic, Mini-batch)](./docs/01_04_02_Gradient_Descent.md)
+- [ ] [볼록 최적화 (Convex Optimization)](./docs/01_04_03_Convex_Optimization.md)
+- [ ] [라그랑주 승수법 (Lagrange Multipliers)](./docs/01_04_04_Lagrange_Multipliers.md)
 
 ### 1.2. 컴퓨터 과학 (Computer Science)
 
