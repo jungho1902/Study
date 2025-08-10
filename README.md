@@ -47,11 +47,11 @@
 ### 1.2. 컴퓨터 과학 (Computer Science)
 
 #### 1.2.1. 프로그래밍 기초 (Programming Fundamentals with Python)
-- [ ] 파이썬 기본 문법 (변수, 자료형, 연산자)
-- [ ] 제어문 (조건문, 반복문)
-- [ ] 함수와 모듈
-- [ ] 객체 지향 프로그래밍 (OOP) 기초 (클래스, 객체)
-- [ ] 파일 입출력
+- [ ] [파이썬 기본 문법 (변수, 자료형, 연산자)](./docs/01_05_01_Python_Syntax.md)
+- [ ] [제어문 (조건문, 반복문)](./docs/01_05_02_Control_Flow.md)
+- [ ] [함수와 모듈](./docs/01_05_03_Functions_Modules.md)
+- [ ] [객체 지향 프로그래밍 (OOP) 기초 (클래스, 객체)](./docs/01_05_04_OOP_Basics.md)
+- [ ] [파일 입출력](./docs/01_05_05_File_IO.md)
 - [ ] 필수 라이브러리:
   - [ ] **NumPy**: 다차원 배열 및 행렬 연산
   - [ ] **Pandas**: 데이터 조작 및 분석 (DataFrame, Series)
