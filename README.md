@@ -7,7 +7,7 @@
 
 #### 1.1.1. 선형대수 (Linear Algebra)
 - [ ] [스칼라, 벡터, 행렬, 텐서의 이해](./docs/01_01_01_Scalar_Vector_Matrix_Tensor.md)
-- [x] [행렬 연산 (덧셈, 뺄셈, 곱셈, 전치)](./docs/01_01_02_Matrix_Operations.md)
+- [ ] [행렬 연산 (덧셈, 뺄셈, 곱셈, 전치)](./docs/01_01_02_Matrix_Operations.md)
 
 - [ ] [내적(Dot Product) 및 외적(Cross Product)](./docs/01_01_03_Dot_Product_and_Cross_Product.md)
 - [ ] [단위행렬(Identity Matrix)과 역행렬(Inverse Matrix)](./docs/01_01_04_Identity_and_Inverse_Matrix.md)
@@ -28,15 +28,15 @@
 - [ ] [시그모이드(Sigmoid), ReLU 등 활성화 함수의 미분](./docs/01_02_07_Activation_Function_Derivatives.md)
 
 #### 1.1.3. 확률 및 통계 (Probability & Statistics)
-- [x] [기본적인 확률 이론 (사건, 표본 공간, 조건부 확률)](./docs/01_03_01_Basic_Probability_Theory.md)
-- [x] [베이즈 정리 (Bayes' Theorem)](./docs/01_03_02_Bayes_Theorem.md)
-- [x] [확률 변수 (Random Variables)](./docs/01_03_03_Random_Variables.md)
-- [x] [확률 분포 (균등, 정규, 베르누이, 이항, 포아송 분포)](./docs/01_03_04_Probability_Distributions.md)
-- [x] [기댓값(Expected Value), 분산(Variance), 표준편차(Standard Deviation)](./docs/01_03_05_EV_Variance_StdDev.md)
-- [x] [중심극한정리 (Central Limit Theorem)](./docs/01_03_06_Central_Limit_Theorem.md)
-- [x] [기술 통계 (Descriptive Statistics): 평균, 중앙값, 최빈값](./docs/01_03_07_Descriptive_Statistics.md)
-- [x] [추론 통계 (Inferential Statistics): 가설 검정, 신뢰 구간](./docs/01_03_08_Inferential_Statistics.md)
-- [x] [최대 가능도 추정 (Maximum Likelihood Estimation, MLE)](./docs/01_03_09_Maximum_Likelihood_Estimation.md)
+- [ ] [기본적인 확률 이론 (사건, 표본 공간, 조건부 확률)](./docs/01_03_01_Basic_Probability_Theory.md)
+- [ ] [베이즈 정리 (Bayes' Theorem)](./docs/01_03_02_Bayes_Theorem.md)
+- [ ] [확률 변수 (Random Variables)](./docs/01_03_03_Random_Variables.md)
+- [ ] [확률 분포 (균등, 정규, 베르누이, 이항, 포아송 분포)](./docs/01_03_04_Probability_Distributions.md)
+- [ ] [기댓값(Expected Value), 분산(Variance), 표준편차(Standard Deviation)](./docs/01_03_05_EV_Variance_StdDev.md)
+- [ ] [중심극한정리 (Central Limit Theorem)](./docs/01_03_06_Central_Limit_Theorem.md)
+- [ ] [기술 통계 (Descriptive Statistics): 평균, 중앙값, 최빈값](./docs/01_03_07_Descriptive_Statistics.md)
+- [ ] [추론 통계 (Inferential Statistics): 가설 검정, 신뢰 구간](./docs/01_03_08_Inferential_Statistics.md)
+- [ ] [최대 가능도 추정 (Maximum Likelihood Estimation, MLE)](./docs/01_03_09_Maximum_Likelihood_Estimation.md)
 
 #### 1.1.4. 최적화 (Optimization)
 - [ ] 비용 함수 (Cost Function) / 손실 함수 (Loss Function)
@@ -68,48 +68,48 @@
 ## 파트 2: 인공지능(AI) 및 머신러닝(ML) 소개 (Introduction to AI & ML)
 
 ### 2.1. 인공지능의 역사와 발전 (History and Evolution of AI)
-- [x] [튜링 테스트와 AI의 탄생 (앨런 튜링)](./docs/02_01_01_Turing_Test_and_Birth_of_AI.md)
-- [x] [다트머스 회의: '인공지능' 용어의 등장](./docs/02_01_02_Dartmouth_Conference.md)
-- [x] [AI의 황금기와 암흑기 (AI Winters)](./docs/02_01_03_AI_Golden_Age_and_Winter.md)
-- [x] [전문가 시스템(Expert Systems)의 시대](./docs/02_01_04_Expert_Systems.md)
-- [x] [머신러닝의 부상과 딥러닝 혁명](./docs/02_01_05_Rise_of_ML_and_Deep_Learning.md)
+- [ ] [튜링 테스트와 AI의 탄생 (앨런 튜링)](./docs/02_01_01_Turing_Test_and_Birth_of_AI.md)
+- [ ] [다트머스 회의: '인공지능' 용어의 등장](./docs/02_01_02_Dartmouth_Conference.md)
+- [ ] [AI의 황금기와 암흑기 (AI Winters)](./docs/02_01_03_AI_Golden_Age_and_Winter.md)
+- [ ] [전문가 시스템(Expert Systems)의 시대](./docs/02_01_04_Expert_Systems.md)
+- [ ] [머신러닝의 부상과 딥러닝 혁명](./docs/02_01_05_Rise_of_ML_and_Deep_Learning.md)
 
 ### 2.2. AI, 머신러닝, 딥러닝의 관계 (Relationship between AI, ML, and Deep Learning)
-- [x] [AI, 머신러닝, 딥러닝의 관계](./docs/02_02_01_Relationship_AI_ML_DL.md)
+- [ ] [AI, 머신러닝, 딥러닝의 관계](./docs/02_02_01_Relationship_AI_ML_DL.md)
 
 ### 2.3. 머신러닝의 종류 (Types of Machine Learning)
-- [x] [지도학습 (Supervised Learning)](./docs/02_03_01_Supervised_Learning.md)
-- [x] [비지도학습 (Unsupervised Learning)](./docs/02_03_02_Unsupervised_Learning.md)
-- [x] [강화학습 (Reinforcement Learning)](./docs/02_03_03_Reinforcement_Learning.md)
+- [ ] [지도학습 (Supervised Learning)](./docs/02_03_01_Supervised_Learning.md)
+- [ ] [비지도학습 (Unsupervised Learning)](./docs/02_03_02_Unsupervised_Learning.md)
+- [ ] [강화학습 (Reinforcement Learning)](./docs/02_03_03_Reinforcement_Learning.md)
 
 ### 2.4. 머신러닝 프로젝트의 전체 과정 (The Machine Learning Workflow)
-- [x] [머신러닝 프로젝트의 전체 과정](./docs/02_04_01_ML_Workflow.md)
+- [ ] [머신러닝 프로젝트의 전체 과정](./docs/02_04_01_ML_Workflow.md)
 
 ## 파트 3: 핵심 머신러닝 (Core Machine Learning)
 
 ### 3.1. 지도 학습 (Supervised Learning)
 
 #### 3.1.1. 회귀 (Regression)
-- [x] [**선형 회귀 (Linear Regression):** 기본 개념, 비용 함수, 경사 하강법 적용](./docs/03_01_01_Linear_Regression.md)
-- [x] [**다항 회귀 (Polynomial Regression):** 비선형 관계 모델링](./docs/03_01_01_Polynomial_Regression.md)
-- [x] [**규제가 있는 회귀 (Regularized Regression):**](./docs/03_01_01_Regularized_Regression.md)
+- [ ] [**선형 회귀 (Linear Regression):** 기본 개념, 비용 함수, 경사 하강법 적용](./docs/03_01_01_Linear_Regression.md)
+- [ ] [**다항 회귀 (Polynomial Regression):** 비선형 관계 모델링](./docs/03_01_01_Polynomial_Regression.md)
+- [ ] [**규제가 있는 회귀 (Regularized Regression):**](./docs/03_01_01_Regularized_Regression.md)
   - [ ] **릿지 회귀 (Ridge Regression):** L2 규제
   - [ ] **라쏘 회귀 (Lasso Regression):** L1 규제
   - [ ] **엘라스틱넷 (ElasticNet):** L1과 L2 규제의 결합
 
 #### 3.1.2. 분류 (Classification)
-- [x] [**로지스틱 회귀 (Logistic Regression):** 시그모이드 함수, 이진 분류](./docs/03_01_02_Logistic_Regression.md)
-- [x] [**k-최근접 이웃 (k-Nearest Neighbors, k-NN):** 거리 기반 모델, 인스턴스 기반 학습](./docs/03_01_02_kNN.md)
-- [x] [**서포트 벡터 머신 (Support Vector Machines, SVM):** 마진 최대화, 커널 트릭](./docs/03_01_02_SVM.md)
-- [x] [**결정 트리 (Decision Trees):** 정보 이득, 지니 불순도, 가지치기](./docs/03_01_02_Decision_Trees.md)
-- [x] [**나이브 베이즈 분류기 (Naive Bayes Classifier):** 베이즈 정리 기반, 특성 독립 가정](./docs/03_01_02_Naive_Bayes.md)
+- [ ] [**로지스틱 회귀 (Logistic Regression):** 시그모이드 함수, 이진 분류](./docs/03_01_02_Logistic_Regression.md)
+- [ ] [**k-최근접 이웃 (k-Nearest Neighbors, k-NN):** 거리 기반 모델, 인스턴스 기반 학습](./docs/03_01_02_kNN.md)
+- [ ] [**서포트 벡터 머신 (Support Vector Machines, SVM):** 마진 최대화, 커널 트릭](./docs/03_01_02_SVM.md)
+- [ ] [**결정 트리 (Decision Trees):** 정보 이득, 지니 불순도, 가지치기](./docs/03_01_02_Decision_Trees.md)
+- [ ] [**나이브 베이즈 분류기 (Naive Bayes Classifier):** 베이즈 정리 기반, 특성 독립 가정](./docs/03_01_02_Naive_Bayes.md)
 
 #### 3.1.3. 앙상블 학습 (Ensemble Learning)
-- [x] [**보팅 (Voting) 및 배깅 (Bagging):**](./docs/03_01_03_Voting_and_Bagging.md)
+- [ ] [**보팅 (Voting) 및 배깅 (Bagging):**](./docs/03_01_03_Voting_and_Bagging.md)
   - [ ] **보팅:** 여러 모델의 예측을 투표로 결합
   - [ ] **배깅:** 데이터 샘플링을 통해 여러 모델을 학습 (예: 부트스트랩)
-- [x] [**랜덤 포레스트 (Random Forest):** 결정 트리의 앙상블 (배깅 + 특성 무작위 선택)](./docs/03_01_03_Random_Forest.md)
-- [x] [**부스팅 (Boosting):**](./docs/03_01_03_Boosting.md)
+- [ ] [**랜덤 포레스트 (Random Forest):** 결정 트리의 앙상블 (배깅 + 특성 무작위 선택)](./docs/03_01_03_Random_Forest.md)
+- [ ] [**부스팅 (Boosting):**](./docs/03_01_03_Boosting.md)
   - [ ] **AdaBoost:** 오답에 가중치를 부여하며 순차적으로 학습
   - [ ] **그래디언트 부스팅 머신 (Gradient Boosting Machine, GBM):** 잔여 오차를 학습
   - [ ] **XGBoost, LightGBM, CatBoost:** GBM의 성능 및 속도 개선 모델
@@ -117,13 +117,13 @@
 ### 3.2. 비지도 학습 (Unsupervised Learning)
 
 #### 3.2.1. 군집화 (Clustering)
-- [x] [**K-평균 군집화 (K-Means Clustering):** 중심점(Centroid) 기반 군집화](./docs/03_02_01_K-Means_Clustering.md)
-- [x] [**계층적 군집화 (Hierarchical Clustering):** 덴드로그램, 병합/분할 방식](./docs/03_02_01_Hierarchical_Clustering.md)
-- [x] [**DBSCAN (Density-Based Spatial Clustering of Applications with Noise):** 밀도 기반 군집화](./docs/03_02_01_DBSCAN.md)
+- [ ] [**K-평균 군집화 (K-Means Clustering):** 중심점(Centroid) 기반 군집화](./docs/03_02_01_K-Means_Clustering.md)
+- [ ] [**계층적 군집화 (Hierarchical Clustering):** 덴드로그램, 병합/분할 방식](./docs/03_02_01_Hierarchical_Clustering.md)
+- [ ] [**DBSCAN (Density-Based Spatial Clustering of Applications with Noise):** 밀도 기반 군집화](./docs/03_02_01_DBSCAN.md)
 
 #### 3.2.2. 차원 축소 (Dimensionality Reduction)
-- [x] [**주성분 분석 (Principal Component Analysis, PCA):** 분산을 최대로 보존하는 축을 찾아 차원 축소](./docs/03_02_02_PCA.md)
-- [x] [**t-SNE (t-Distributed Stochastic Neighbor Embedding):** 고차원 데이터의 시각화에 주로 사용](./docs/03_02_02_t-SNE.md)
+- [ ] [**주성분 분석 (Principal Component Analysis, PCA):** 분산을 최대로 보존하는 축을 찾아 차원 축소](./docs/03_02_02_PCA.md)
+- [ ] [**t-SNE (t-Distributed Stochastic Neighbor Embedding):** 고차원 데이터의 시각화에 주로 사용](./docs/03_02_02_t-SNE.md)
 
 ### 3.3. 모델 평가 및 성능 향상 (Model Evaluation & Enhancement)
 
@@ -149,45 +149,45 @@
 ## 파트 4: 딥러닝 (Deep Learning)
 
 ### 4.1. 인공 신경망 기초 (Neural Network Basics)
-- [x] [**퍼셉트론 (Perceptron)과 다층 퍼셉트론 (Multi-Layer Perceptron, MLP):** 신경망의 기본 단위](./docs/04_01_01_Perceptron_and_MLP.md)
-- [x] [**활성화 함수 (Activation Functions):**](./docs/04_01_02_Activation_Functions.md)
+- [ ] [**퍼셉트론 (Perceptron)과 다층 퍼셉트론 (Multi-Layer Perceptron, MLP):** 신경망의 기본 단위](./docs/04_01_01_Perceptron_and_MLP.md)
+- [ ] [**활성화 함수 (Activation Functions):**](./docs/04_01_02_Activation_Functions.md)
   - Sigmoid, Tanh, ReLU, Leaky ReLU, PReLU, ELU, Softmax
-- [x] [**손실 함수 (Loss Functions):**](./docs/04_01_03_Loss_Functions.md)
+- [ ] [**손실 함수 (Loss Functions):**](./docs/04_01_03_Loss_Functions.md)
   - 회귀: MSE, MAE
   - 분류: Binary Cross-Entropy, Categorical Cross-Entropy
-- [x] [**역전파 알고리즘 (Backpropagation):** 그래디언트 계산 및 가중치 업데이트 원리](./docs/04_01_04_Backpropagation.md)
-- [x] [**옵티마이저 (Optimizers):**](./docs/04_01_05_Optimizers.md)
+- [ ] [**역전파 알고리즘 (Backpropagation):** 그래디언트 계산 및 가중치 업데이트 원리](./docs/04_01_04_Backpropagation.md)
+- [ ] [**옵티마이저 (Optimizers):**](./docs/04_01_05_Optimizers.md)
   - 경사 하강법의 종류: SGD, Momentum, Nesterov Momentum
   - 적응적 학습률 옵티마이저: Adagrad, RMSprop, Adam
 
 ### 4.2. 딥러닝 모델 학습 기술 (Techniques for Training Deep Neural Networks)
-- [x] [**가중치 초기화 (Weight Initialization):** Xavier/Glorot, He 초기화](./docs/04_02_01_Weight_Initialization.md)
-- [x] [**배치 정규화 (Batch Normalization):** 내부 공변량 변화 문제 해결](./docs/04_02_02_Batch_Normalization.md)
-- [x] [**드롭아웃 (Dropout):** 과대적합 방지를 위한 규제 기법](./docs/04_02_03_Dropout.md)
-- [x] [**학습률 스케줄링 (Learning Rate Scheduling):** Step Decay, Cosine Annealing 등](./docs/04_02_04_Learning_Rate_Scheduling.md)
+- [ ] [**가중치 초기화 (Weight Initialization):** Xavier/Glorot, He 초기화](./docs/04_02_01_Weight_Initialization.md)
+- [ ] [**배치 정규화 (Batch Normalization):** 내부 공변량 변화 문제 해결](./docs/04_02_02_Batch_Normalization.md)
+- [ ] [**드롭아웃 (Dropout):** 과대적합 방지를 위한 규제 기법](./docs/04_02_03_Dropout.md)
+- [ ] [**학습률 스케줄링 (Learning Rate Scheduling):** Step Decay, Cosine Annealing 등](./docs/04_02_04_Learning_Rate_Scheduling.md)
 
 ### 4.3. 합성곱 신경망 (Convolutional Neural Networks, CNN)
-- [x] [**CNN의 핵심 구성요소:**](./docs/04_03_01_CNN_Components.md)
+- [ ] [**CNN의 핵심 구성요소:**](./docs/04_03_01_CNN_Components.md)
   - **합성곱 (Convolution) 레이어:** 필터(Filter)/커널(Kernel), 스트라이드(Stride), 패딩(Padding)
   - **풀링 (Pooling) 레이어:** Max Pooling, Average Pooling
-- [x] [**주요 CNN 아키텍처:**](./docs/04_03_02_CNN_Architectures.md)
+- [ ] [**주요 CNN 아키텍처:**](./docs/04_03_02_CNN_Architectures.md)
   - **LeNet-5, AlexNet, VGGNet, GoogLeNet (Inception), ResNet (Residual Networks), DenseNet**
-- [x] [**응용 분야:**](./docs/04_03_03_CNN_Applications.md)
+- [ ] [**응용 분야:**](./docs/04_03_03_CNN_Applications.md)
   - **이미지 분류 (Image Classification)**
   - **객체 탐지 (Object Detection):** R-CNN, Fast R-CNN, Faster R-CNN, YOLO, SSD
   - **이미지 분할 (Image Segmentation):** FCN, U-Net
 
 ### 4.4. 순환 신경망 (Recurrent Neural Networks, RNN)
-- [x] [**순차 데이터 (Sequential Data)의 이해:** 시계열, 텍스트 데이터](./docs/04_04_01_Sequential_Data.md)
-- [x] [**RNN의 기본 구조와 한계:** 기울기 소실/폭주 문제 (Vanishing/Exploding Gradient Problem)](./docs/04_04_02_RNN_and_Limits.md)
-- [x] [**LSTM (Long Short-Term Memory):** Cell State, Forget/Input/Output Gate를 통한 장기 의존성 학습](./docs/04_04_03_LSTM.md)
-- [x] [**GRU (Gated Recurrent Unit):** LSTM을 단순화한 모델](./docs/04_04_04_GRU.md)
-- [x] [**양방향 RNN (Bidirectional RNN):** 과거와 미래 정보를 모두 활용](./docs/04_04_05_Bidirectional_RNN.md)
-- [x] [**응용 분야:** 자연어 처리(NLP), 시계열 예측](./docs/04_04_06_RNN_Applications.md)
+- [ ] [**순차 데이터 (Sequential Data)의 이해:** 시계열, 텍스트 데이터](./docs/04_04_01_Sequential_Data.md)
+- [ ] [**RNN의 기본 구조와 한계:** 기울기 소실/폭주 문제 (Vanishing/Exploding Gradient Problem)](./docs/04_04_02_RNN_and_Limits.md)
+- [ ] [**LSTM (Long Short-Term Memory):** Cell State, Forget/Input/Output Gate를 통한 장기 의존성 학습](./docs/04_04_03_LSTM.md)
+- [ ] [**GRU (Gated Recurrent Unit):** LSTM을 단순화한 모델](./docs/04_04_04_GRU.md)
+- [ ] [**양방향 RNN (Bidirectional RNN):** 과거와 미래 정보를 모두 활용](./docs/04_04_05_Bidirectional_RNN.md)
+- [ ] [**응용 분야:** 자연어 처리(NLP), 시계열 예측](./docs/04_04_06_RNN_Applications.md)
 
 ### 4.5. 트랜스포머와 어텐션 메커니즘 (Transformers and Attention Mechanism)
-- [x] [**어텐션 메커니즘 (Attention Mechanism):** Seq2Seq 모델의 한계 극복](./docs/04_05_01_Attention_Mechanism.md)
-- [x] [**트랜스포머 (Transformer) 아키텍처:**](./docs/04_05_02_Transformer_Architecture.md)
+- [ ] [**어텐션 메커니즘 (Attention Mechanism):** Seq2Seq 모델의 한계 극복](./docs/04_05_01_Attention_Mechanism.md)
+- [ ] [**트랜스포머 (Transformer) 아키텍처:**](./docs/04_05_02_Transformer_Architecture.md)
   - **Self-Attention, Multi-Head Attention**
   - **Positional Encoding**
   - **인코더-디코더 구조**
