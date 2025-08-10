@@ -96,11 +96,11 @@
   - [ ] **엘라스틱넷 (ElasticNet):** L1과 L2 규제의 결합
 
 #### 3.1.2. 분류 (Classification)
-- [ ] **로지스틱 회귀 (Logistic Regression):** 시그모이드 함수, 이진 분류
-- [ ] **k-최근접 이웃 (k-Nearest Neighbors, k-NN):** 거리 기반 모델, 인스턴스 기반 학습
-- [ ] **서포트 벡터 머신 (Support Vector Machines, SVM):** 마진 최대화, 커널 트릭
-- [ ] **결정 트리 (Decision Trees):** 정보 이득, 지니 불순도, 가지치기
-- [ ] **나이브 베이즈 분류기 (Naive Bayes Classifier):** 베이즈 정리 기반, 특성 독립 가정
+- [x] [**로지스틱 회귀 (Logistic Regression):** 시그모이드 함수, 이진 분류](./docs/03_01_02_Logistic_Regression.md)
+- [x] [**k-최근접 이웃 (k-Nearest Neighbors, k-NN):** 거리 기반 모델, 인스턴스 기반 학습](./docs/03_01_02_kNN.md)
+- [x] [**서포트 벡터 머신 (Support Vector Machines, SVM):** 마진 최대화, 커널 트릭](./docs/03_01_02_SVM.md)
+- [x] [**결정 트리 (Decision Trees):** 정보 이득, 지니 불순도, 가지치기](./docs/03_01_02_Decision_Trees.md)
+- [x] [**나이브 베이즈 분류기 (Naive Bayes Classifier):** 베이즈 정리 기반, 특성 독립 가정](./docs/03_01_02_Naive_Bayes.md)
 
 #### 3.1.3. 앙상블 학습 (Ensemble Learning)
 - [ ] **보팅 (Voting) 및 배깅 (Bagging):**
