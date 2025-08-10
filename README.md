@@ -116,9 +116,9 @@
 ### 3.1. 지도 학습 (Supervised Learning)
 
 #### 3.1.1. 회귀 (Regression)
-- [ ] **선형 회귀 (Linear Regression):** 기본 개념, 비용 함수, 경사 하강법 적용
-- [ ] **다항 회귀 (Polynomial Regression):** 비선형 관계 모델링
-- [ ] **규제가 있는 회귀 (Regularized Regression):**
+- [x] [**선형 회귀 (Linear Regression):** 기본 개념, 비용 함수, 경사 하강법 적용](./docs/03_01_01_Linear_Regression.md)
+- [x] [**다항 회귀 (Polynomial Regression):** 비선형 관계 모델링](./docs/03_01_01_Polynomial_Regression.md)
+- [x] [**규제가 있는 회귀 (Regularized Regression):**](./docs/03_01_01_Regularized_Regression.md)
   - [ ] **릿지 회귀 (Ridge Regression):** L2 규제
   - [ ] **라쏘 회귀 (Lasso Regression):** L1 규제
   - [ ] **엘라스틱넷 (ElasticNet):** L1과 L2 규제의 결합
