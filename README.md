@@ -143,13 +143,13 @@
 ### 3.2. 비지도 학습 (Unsupervised Learning)
 
 #### 3.2.1. 군집화 (Clustering)
-- [ ] **K-평균 군집화 (K-Means Clustering):** 중심점(Centroid) 기반 군집화
-- [ ] **계층적 군집화 (Hierarchical Clustering):** 덴드로그램, 병합/분할 방식
-- [ ] **DBSCAN (Density-Based Spatial Clustering of Applications with Noise):** 밀도 기반 군집화
+- [x] [**K-평균 군집화 (K-Means Clustering):** 중심점(Centroid) 기반 군집화](./docs/03_02_01_K-Means_Clustering.md)
+- [x] [**계층적 군집화 (Hierarchical Clustering):** 덴드로그램, 병합/분할 방식](./docs/03_02_01_Hierarchical_Clustering.md)
+- [x] [**DBSCAN (Density-Based Spatial Clustering of Applications with Noise):** 밀도 기반 군집화](./docs/03_02_01_DBSCAN.md)
 
 #### 3.2.2. 차원 축소 (Dimensionality Reduction)
-- [ ] **주성분 분석 (Principal Component Analysis, PCA):** 분산을 최대로 보존하는 축을 찾아 차원 축소
-- [ ] **t-SNE (t-Distributed Stochastic Neighbor Embedding):** 고차원 데이터의 시각화에 주로 사용
+- [x] [**주성분 분석 (Principal Component Analysis, PCA):** 분산을 최대로 보존하는 축을 찾아 차원 축소](./docs/03_02_02_PCA.md)
+- [x] [**t-SNE (t-Distributed Stochastic Neighbor Embedding):** 고차원 데이터의 시각화에 주로 사용](./docs/03_02_02_t-SNE.md)
 
 ### 3.3. 모델 평가 및 성능 향상 (Model Evaluation & Enhancement)
 
