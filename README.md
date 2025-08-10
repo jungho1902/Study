@@ -57,12 +57,12 @@
   - [ ] [**Matplotlib/Seaborn**: 데이터 시각화](./docs/01_05_08_Matplotlib_Seaborn.md)
 
 #### 1.2.2. 자료구조 및 알고리즘 (Data Structures & Algorithms)
-- [ ] 시간 복잡도와 공간 복잡도 (Big O 표기법)
-- [ ] 기본 자료구조: 배열, 연결 리스트, 스택, 큐
-- [ ] 고급 자료구조: 트리, 힙, 해시 테이블, 그래프
-- [ ] 정렬 알고리즘 (버블, 선택, 삽입, 병합, 퀵 정렬)
-- [ ] 탐색 알고리즘 (선형, 이진 탐색)
-- [ ] 그래프 순회 (너비 우선 탐색 - BFS, 깊이 우선 탐색 - DFS)
+- [ ] [시간 복잡도와 공간 복잡도 (Big O 표기법)](./docs/01_06_01_Complexity.md)
+- [ ] [기본 자료구조: 배열, 연결 리스트, 스택, 큐](./docs/01_06_02_Basic_Data_Structures.md)
+- [ ] [고급 자료구조: 트리, 힙, 해시 테이블, 그래프](./docs/01_06_03_Advanced_Data_Structures.md)
+- [ ] [정렬 알고리즘 (버블, 선택, 삽입, 병합, 퀵 정렬)](./docs/01_06_04_Sorting_Algorithms.md)
+- [ ] [탐색 알고리즘 (선형, 이진 탐색)](./docs/01_06_05_Searching_Algorithms.md)
+- [ ] [그래프 순회 (너비 우선 탐색 - BFS, 깊이 우선 탐색 - DFS)](./docs/01_06_06_Graph_Traversal.md)
 
 ## 파트 2: 인공지능(AI) 및 머신러닝(ML) 소개 (Introduction to AI & ML)
 
