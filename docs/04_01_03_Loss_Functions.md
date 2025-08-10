@@ -71,3 +71,15 @@ $$ \text{CCE} = -\frac{1}{n} \sum_{i=1}^{n} \sum_{j=1}^{C} y_{ij} \log(\hat{y}_{
 
 - **참고: Sparse Categorical Cross-Entropy**
   - 원-핫 인코딩된 레이블 대신, 정수 형태의 레이블(예: `0, 1, 2, ...`)을 사용할 때 사용되는 버전입니다. 내부적으로 정수 레이블을 원-핫 인코딩처럼 처리하여 계산하므로, 메모리 효율성이 좋습니다. 기능적으로는 CCE와 동일합니다.
+
+---
+
+## 4. 손실 함수 선택 가이드
+
+| 문제 유형 | 주로 사용하는 손실 함수 | 특징 |
+|---|---|---|
+| **회귀 (Regression)** | **MSE** (Mean Squared Error) | 이상치에 민감, 가장 표준적인 선택 |
+| | **MAE** (Mean Absolute Error) | 이상치에 덜 민감(robust) |
+| **이진 분류 (Binary Classification)** | **Binary Cross-Entropy** | 출력층이 시그모이드(Sigmoid)일 때 사용 |
+| **다중 클래스 분류 (Multi-class)** | **Categorical Cross-Entropy** | 출력층이 소프트맥스(Softmax)이고 레이블이 원-핫 인코딩일 때 |
+| | **Sparse Categorical Cross-Entropy** | CCE와 동일하지만, 레이블이 정수 형태일 때 사용 |
