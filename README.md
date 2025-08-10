@@ -5,25 +5,25 @@
 ### 1.1. 수학 (Mathematics)
 
 
-#### 1.1.1. [선형대수 (Linear Algebra)](./docs/01_01_Linear_Algebra.md)
-- [ ] 스칼라, 벡터, 행렬, 텐서의 이해
-- [ ] 행렬 연산 (덧셈, 뺄셈, 곱셈, 전치)
-- [ ] 내적(Dot Product) 및 외적(Cross Product)
-- [ ] 단위행렬(Identity Matrix)과 역행렬(Inverse Matrix)
-- [ ] 행렬식(Determinant)
-- [ ] 고유값(Eigenvalues)과 고유벡터(Eigenvectors)
-- [ ] 특이값 분해 (Singular Value Decomposition, SVD)
-- [ ] 주성분 분석 (Principal Component Analysis, PCA) - 기초 개념
+#### 1.1.1. 선형대수 (Linear Algebra)
+- [ ] [스칼라, 벡터, 행렬, 텐서의 이해](./docs/01_01_01_Scalar_Vector_Matrix_Tensor.md)
+- [ ] [행렬 연산 (덧셈, 뺄셈, 곱셈, 전치)](./docs/01_01_02_Matrix_Operations.md)
+- [ ] [내적(Dot Product) 및 외적(Cross Product)](./docs/01_01_03_Dot_Product_and_Cross_Product.md)
+- [ ] [단위행렬(Identity Matrix)과 역행렬(Inverse Matrix)](./docs/01_01_04_Identity_and_Inverse_Matrix.md)
+- [ ] [행렬식(Determinant)](./docs/01_01_05_Determinant.md)
+- [ ] [고유값(Eigenvalues)과 고유벡터(Eigenvectors)](./docs/01_01_06_Eigenvalues_and_Eigenvectors.md)
+- [ ] [특이값 분해 (Singular Value Decomposition, SVD)](./docs/01_01_07_Singular_Value_Decomposition.md)
+- [ ] [주성분 분석 (Principal Component Analysis, PCA) - 기초 개념](./docs/01_01_08_Principal_Component_Analysis.md)
 
 
-#### 1.1.2. [미적분 (Calculus)](./docs/01_02_Calculus.md)
-- [ ] 극한(Limits)과 연속(Continuity)
-- [ ] 미분(Derivatives)과 미분계수
-- [ ] 편미분(Partial Derivatives)
-- [ ] 연쇄 법칙 (Chain Rule)
-- [ ] 그래디언트 (Gradient)
-- [ ] 적분(Integrals)
-- [ ] 시그모이드(Sigmoid), ReLU 등 활성화 함수의 미분
+#### 1.1.2. 미적분 (Calculus)
+- [ ] [극한(Limits)과 연속(Continuity)](./docs/01_02_01_Limits_and_Continuity.md)
+- [ ] [미분(Derivatives)과 미분계수](./docs/01_02_02_Derivatives.md)
+- [ ] [편미분(Partial Derivatives)](./docs/01_02_03_Partial_Derivatives.md)
+- [ ] [연쇄 법칙 (Chain Rule)](./docs/01_02_04_Chain_Rule.md)
+- [ ] [그래디언트 (Gradient)](./docs/01_02_05_Gradient.md)
+- [ ] [적분(Integrals)](./docs/01_02_06_Integrals.md)
+- [ ] [시그모이드(Sigmoid), ReLU 등 활성화 함수의 미분](./docs/01_02_07_Activation_Function_Derivatives.md)
 
 #### 1.1.3. 확률 및 통계 (Probability & Statistics)
 - [ ] 기본적인 확률 이론 (사건, 표본 공간, 조건부 확률)
