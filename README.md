@@ -175,68 +175,68 @@
 ## 파트 4: 딥러닝 (Deep Learning)
 
 ### 4.1. 인공 신경망 기초 (Neural Network Basics)
-- [ ] **퍼셉트론 (Perceptron)과 다층 퍼셉트론 (Multi-Layer Perceptron, MLP):** 신경망의 기본 단위
-- [ ] **활성화 함수 (Activation Functions):**
-  - [ ] Sigmoid, Tanh, ReLU, Leaky ReLU, PReLU, ELU, Softmax
-- [ ] **손실 함수 (Loss Functions):**
-  - [ ] 회귀: MSE, MAE
-  - [ ] 분류: Binary Cross-Entropy, Categorical Cross-Entropy
-- [ ] **역전파 알고리즘 (Backpropagation):** 그래디언트 계산 및 가중치 업데이트 원리
-- [ ] **옵티마이저 (Optimizers):**
-  - [ ] 경사 하강법의 종류: SGD, Momentum, Nesterov Momentum
-  - [ ] 적응적 학습률 옵티마이저: Adagrad, RMSprop, Adam
+- [x] [**퍼셉트론 (Perceptron)과 다층 퍼셉트론 (Multi-Layer Perceptron, MLP):** 신경망의 기본 단위](./docs/04_01_01_Perceptron_and_MLP.md)
+- [x] [**활성화 함수 (Activation Functions):**](./docs/04_01_02_Activation_Functions.md)
+  - Sigmoid, Tanh, ReLU, Leaky ReLU, PReLU, ELU, Softmax
+- [x] [**손실 함수 (Loss Functions):**](./docs/04_01_03_Loss_Functions.md)
+  - 회귀: MSE, MAE
+  - 분류: Binary Cross-Entropy, Categorical Cross-Entropy
+- [x] [**역전파 알고리즘 (Backpropagation):** 그래디언트 계산 및 가중치 업데이트 원리](./docs/04_01_04_Backpropagation.md)
+- [x] [**옵티마이저 (Optimizers):**](./docs/04_01_05_Optimizers.md)
+  - 경사 하강법의 종류: SGD, Momentum, Nesterov Momentum
+  - 적응적 학습률 옵티마이저: Adagrad, RMSprop, Adam
 
 ### 4.2. 딥러닝 모델 학습 기술 (Techniques for Training Deep Neural Networks)
-- [ ] **가중치 초기화 (Weight Initialization):** Xavier/Glorot, He 초기화
-- [ ] **배치 정규화 (Batch Normalization):** 내부 공변량 변화 문제 해결
-- [ ] **드롭아웃 (Dropout):** 과대적합 방지를 위한 규제 기법
-- [ ] **학습률 스케줄링 (Learning Rate Scheduling):** Step Decay, Cosine Annealing 등
+- [x] [**가중치 초기화 (Weight Initialization):** Xavier/Glorot, He 초기화](./docs/04_02_01_Weight_Initialization.md)
+- [x] [**배치 정규화 (Batch Normalization):** 내부 공변량 변화 문제 해결](./docs/04_02_02_Batch_Normalization.md)
+- [x] [**드롭아웃 (Dropout):** 과대적합 방지를 위한 규제 기법](./docs/04_02_03_Dropout.md)
+- [x] [**학습률 스케줄링 (Learning Rate Scheduling):** Step Decay, Cosine Annealing 등](./docs/04_02_04_Learning_Rate_Scheduling.md)
 
 ### 4.3. 합성곱 신경망 (Convolutional Neural Networks, CNN)
-- [ ] **CNN의 핵심 구성요소:**
-  - [ ] **합성곱 (Convolution) 레이어:** 필터(Filter)/커널(Kernel), 스트라이드(Stride), 패딩(Padding)
-  - [ ] **풀링 (Pooling) 레이어:** Max Pooling, Average Pooling
-- [ ] **주요 CNN 아키텍처:**
-  - [ ] **LeNet-5, AlexNet, VGGNet, GoogLeNet (Inception), ResNet (Residual Networks), DenseNet**
-- [ ] **응용 분야:**
-  - [ ] **이미지 분류 (Image Classification)**
-  - [ ] **객체 탐지 (Object Detection):** R-CNN, Fast R-CNN, Faster R-CNN, YOLO, SSD
-  - [ ] **이미지 분할 (Image Segmentation):** FCN, U-Net
+- [x] [**CNN의 핵심 구성요소:**](./docs/04_03_01_CNN_Components.md)
+  - **합성곱 (Convolution) 레이어:** 필터(Filter)/커널(Kernel), 스트라이드(Stride), 패딩(Padding)
+  - **풀링 (Pooling) 레이어:** Max Pooling, Average Pooling
+- [x] [**주요 CNN 아키텍처:**](./docs/04_03_02_CNN_Architectures.md)
+  - **LeNet-5, AlexNet, VGGNet, GoogLeNet (Inception), ResNet (Residual Networks), DenseNet**
+- [x] [**응용 분야:**](./docs/04_03_03_CNN_Applications.md)
+  - **이미지 분류 (Image Classification)**
+  - **객체 탐지 (Object Detection):** R-CNN, Fast R-CNN, Faster R-CNN, YOLO, SSD
+  - **이미지 분할 (Image Segmentation):** FCN, U-Net
 
 ### 4.4. 순환 신경망 (Recurrent Neural Networks, RNN)
-- [ ] **순차 데이터 (Sequential Data)의 이해:** 시계열, 텍스트 데이터
-- [ ] **RNN의 기본 구조와 한계:** 기울기 소실/폭주 문제 (Vanishing/Exploding Gradient Problem)
-- [ ] **LSTM (Long Short-Term Memory):** Cell State, Forget/Input/Output Gate를 통한 장기 의존성 학습
-- [ ] **GRU (Gated Recurrent Unit):** LSTM을 단순화한 모델
-- [ ] **양방향 RNN (Bidirectional RNN):** 과거와 미래 정보를 모두 활용
-- [ ] **응용 분야:** 자연어 처리(NLP), 시계열 예측
+- [x] [**순차 데이터 (Sequential Data)의 이해:** 시계열, 텍스트 데이터](./docs/04_04_01_Sequential_Data.md)
+- [x] [**RNN의 기본 구조와 한계:** 기울기 소실/폭주 문제 (Vanishing/Exploding Gradient Problem)](./docs/04_04_02_RNN_and_Limits.md)
+- [x] [**LSTM (Long Short-Term Memory):** Cell State, Forget/Input/Output Gate를 통한 장기 의존성 학습](./docs/04_04_03_LSTM.md)
+- [x] [**GRU (Gated Recurrent Unit):** LSTM을 단순화한 모델](./docs/04_04_04_GRU.md)
+- [x] [**양방향 RNN (Bidirectional RNN):** 과거와 미래 정보를 모두 활용](./docs/04_04_05_Bidirectional_RNN.md)
+- [x] [**응용 분야:** 자연어 처리(NLP), 시계열 예측](./docs/04_04_06_RNN_Applications.md)
 
 ### 4.5. 트랜스포머와 어텐션 메커니즘 (Transformers and Attention Mechanism)
-- [ ] **어텐션 메커니즘 (Attention Mechanism):** Seq2Seq 모델의 한계 극복
-- [ ] **트랜스포머 (Transformer) 아키텍처:**
-  - [ ] **Self-Attention, Multi-Head Attention**
-  - [ ] **Positional Encoding**
-  - [ ] **인코더-디코더 구조**
-- [ ] **주요 트랜스포머 기반 모델:**
-  - [ ] **BERT (Bidirectional Encoder Representations from Transformers)**
-  - [ ] **GPT (Generative Pre-trained Transformer)**
-  - [ ] **T5, BART**
-- [ ] **응용 분야:** 기계 번역, 텍스트 생성, 요약, 질의응답
+- [x] [**어텐션 메커니즘 (Attention Mechanism):** Seq2Seq 모델의 한계 극복](./docs/04_05_01_Attention_Mechanism.md)
+- [x] [**트랜스포머 (Transformer) 아키텍처:**](./docs/04_05_02_Transformer_Architecture.md)
+  - **Self-Attention, Multi-Head Attention**
+  - **Positional Encoding**
+  - **인코더-디코더 구조**
+- [x] [**주요 트랜스포머 기반 모델:**](./docs/04_05_03_Transformer_Models.md)
+  - **BERT (Bidirectional Encoder Representations from Transformers)**
+  - **GPT (Generative Pre-trained Transformer)**
+  - **T5, BART**
+- [x] [**응용 분야:** 기계 번역, 텍스트 생성, 요약, 질의응답](./docs/04_05_04_Transformer_Applications.md)
 
 ### 4.6. 생성 모델 (Generative Models)
-- [ ] **오토인코더 (Autoencoders, AE):** 데이터 압축 및 특징 추출
-- [ ] **변이형 오토인코더 (Variational Autoencoders, VAE):** 확률적 잠재 공간을 이용한 데이터 생성
-- [ ] **생성적 적대 신경망 (Generative Adversarial Networks, GAN):**
-  - [ ] 생성자(Generator)와 판별자(Discriminator)의 경쟁을 통한 학습
-  - [ ] DCGAN, StyleGAN 등 주요 GAN 모델
-- [ ] **디퓨전 모델 (Diffusion Models):** 노이즈를 점진적으로 제거하며 데이터 생성
-- [ ] **응용 분야:** 이미지 생성, 스타일 변환(Style Transfer), 데이터 증강
+- [x] [**오토인코더 (Autoencoders, AE):** 데이터 압축 및 특징 추출](./docs/04_06_01_Autoencoders.md)
+- [x] [**변이형 오토인코더 (Variational Autoencoders, VAE):** 확률적 잠재 공간을 이용한 데이터 생성](./docs/04_06_02_Variational_Autoencoders.md)
+- [x] [**생성적 적대 신경망 (Generative Adversarial Networks, GAN):**](./docs/04_06_03_GANs.md)
+  - 생성자(Generator)와 판별자(Discriminator)의 경쟁을 통한 학습
+  - DCGAN, StyleGAN 등 주요 GAN 모델
+- [x] [**디퓨전 모델 (Diffusion Models):** 노이즈를 점진적으로 제거하며 데이터 생성](./docs/04_06_04_Diffusion_Models.md)
+- [x] [**응용 분야:** 이미지 생성, 스타일 변환(Style Transfer), 데이터 증강](./docs/04_06_05_Generative_Applications.md)
 
 ### 4.7. 그래프 신경망 (Graph Neural Networks, GNN)
-- [ ] **그래프 데이터의 이해:** 노드, 엣지, 그래프 구조
-- [ ] **GNN의 기본 원리:** 메시지 전달(Message Passing)
-- [ ] **주요 GNN 아키텍처:** GCN, GraphSAGE, GAT
-- [ ] **응용 분야:** 추천 시스템, 소셜 네트워크 분석, 분자 구조 예측
+- [x] [**그래프 데이터의 이해:** 노드, 엣지, 그래프 구조](./docs/04_07_01_Graph_Data.md)
+- [x] [**GNN의 기본 원리:** 메시지 전달(Message Passing)](./docs/04_07_02_GNN_Principles.md)
+- [x] [**주요 GNN 아키텍처:** GCN, GraphSAGE, GAT](./docs/04_07_03_GNN_Architectures.md)
+- [x] [**응용 분야:** 추천 시스템, 소셜 네트워크 분석, 분자 구조 예측](./docs/04_07_04_GNN_Applications.md)
 
 ## 파트 5: 강화학습 (Reinforcement Learning)
 
