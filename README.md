@@ -103,11 +103,11 @@
 - [x] [**나이브 베이즈 분류기 (Naive Bayes Classifier):** 베이즈 정리 기반, 특성 독립 가정](./docs/03_01_02_Naive_Bayes.md)
 
 #### 3.1.3. 앙상블 학습 (Ensemble Learning)
-- [ ] **보팅 (Voting) 및 배깅 (Bagging):**
+- [x] [**보팅 (Voting) 및 배깅 (Bagging):**](./docs/03_01_03_Voting_and_Bagging.md)
   - [ ] **보팅:** 여러 모델의 예측을 투표로 결합
   - [ ] **배깅:** 데이터 샘플링을 통해 여러 모델을 학습 (예: 부트스트랩)
-- [ ] **랜덤 포레스트 (Random Forest):** 결정 트리의 앙상블 (배깅 + 특성 무작위 선택)
-- [ ] **부스팅 (Boosting):**
+- [x] [**랜덤 포레스트 (Random Forest):** 결정 트리의 앙상블 (배깅 + 특성 무작위 선택)](./docs/03_01_03_Random_Forest.md)
+- [x] [**부스팅 (Boosting):**](./docs/03_01_03_Boosting.md)
   - [ ] **AdaBoost:** 오답에 가중치를 부여하며 순차적으로 학습
   - [ ] **그래디언트 부스팅 머신 (Gradient Boosting Machine, GBM):** 잔여 오차를 학습
   - [ ] **XGBoost, LightGBM, CatBoost:** GBM의 성능 및 속도 개선 모델
