@@ -282,39 +282,19 @@
 ## 파트 6: MLOps (Machine Learning Operations)
 
 ### 6.1. MLOps 개요 (Introduction to MLOps)
-- [ ] MLOps의 정의와 필요성
-- [ ] DevOps와 MLOps의 차이점
-- [ ] MLOps 파이프라인의 전체적인 그림
+- [x] [MLOps의 정의, 필요성, DevOps와의 차이점, 전체 파이프라인](./docs/06_01_Introduction_to_MLOps.md)
 
 ### 6.2. 데이터 및 피처 관리 (Data and Feature Management)
-- [ ] **데이터 파이프라인:** ETL (Extract, Transform, Load), ELT
-- [ ] **데이터 버전 관리 (Data Version Control, DVC):** 코드처럼 데이터셋 버전 관리
-- [ ] **피처 스토어 (Feature Store):** 피처의 생성, 저장, 공유, 재사용을 위한 중앙 저장소
+- [x] [데이터 파이프라인, 데이터 버전 관리(DVC), 피처 스토어](./docs/06_02_Data_and_Feature_Management.md)
 
 ### 6.3. 모델 배포 및 서빙 (Model Deployment & Serving)
-- [ ] **배포 전략:**
-  - [ ] **Shadow Deployment:** 기존 모델과 새 모델을 병렬로 운영 (결과는 새 모델만 확인)
-  - [ ] **Canary Deployment:** 일부 사용자에게만 새 모델을 노출
-  - [ ] **A/B Testing:** 두 개 이상의 모델을 비교 평가
-- [ ] **모델 서빙 (Model Serving):**
-  - [ ] **REST API, gRPC**를 통한 모델 예측 서비스 제공
-  - [ ] **온라인 서빙 (Online Serving) vs. 배치 서빙 (Batch Serving)**
-- [ ] **컨테이너화 (Containerization):**
-  - [ ] **Docker:** 재현 가능한 환경 구축
-  - [ ] **Kubernetes (K8s):** 컨테이너 오케스트레이션, 확장성 및 안정성 확보
-- [ ] **서버리스 (Serverless) 배포:** AWS Lambda, Google Cloud Functions
+- [x] [배포 전략, 모델 서빙, 컨테이너화, 서버리스](./docs/06_03_Model_Deployment_and_Serving.md)
 
 ### 6.4. CI/CD/CT for ML
-- [ ] **CI (Continuous Integration):** 코드 변경 사항의 자동화된 빌드 및 테스트
-- [ ] **CD (Continuous Delivery/Deployment):** 모델의 자동화된 배포
-- [ ] **CT (Continuous Training):** 새로운 데이터나 성능 저하 시 모델 재학습 자동화
+- [x] [지속적 통합(CI), 지속적 제공/배포(CD), 지속적 학습(CT)](./docs/06_04_CI_CD_CT_for_ML.md)
 
 ### 6.5. 모델 모니터링 및 관리 (Model Monitoring & Management)
-- [ ] **모델 성능 모니터링:** 예측 성능, 지연 시간, 처리량 등 추적
-- [ ] **데이터 드리프트 (Data Drift):** 입력 데이터의 통계적 분포 변화
-- [ ] **컨셉 드리프트 (Concept Drift):** 입력 데이터와 타겟 변수 간의 관계 변화
-- [ ] **모델 레지스트리 (Model Registry):** 훈련된 모델의 버전, 아티팩트, 메타데이터 관리
-- [ ] **주요 MLOps 플랫폼:** MLflow, Kubeflow, TFX, Sagemaker
+- [x] [모델 성능 모니터링, 드리프트, 모델 레지스트리, MLOps 플랫폼](./docs/06_05_Model_Monitoring_and_Management.md)
 
 ## 파트 7: 심화 주제 및 전문 분야 (Advanced Topics & Specializations)
 
