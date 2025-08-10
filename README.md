@@ -26,15 +26,15 @@
 - [ ] [시그모이드(Sigmoid), ReLU 등 활성화 함수의 미분](./docs/01_02_07_Activation_Function_Derivatives.md)
 
 #### 1.1.3. 확률 및 통계 (Probability & Statistics)
-- [ ] 기본적인 확률 이론 (사건, 표본 공간, 조건부 확률)
-- [ ] 베이즈 정리 (Bayes' Theorem)
-- [ ] 확률 변수 (Random Variables)
-- [ ] 확률 분포 (균등, 정규, 베르누이, 이항, 포아송 분포)
-- [ ] 기댓값(Expected Value), 분산(Variance), 표준편차(Standard Deviation)
-- [ ] 중심극한정리 (Central Limit Theorem)
-- [ ] 기술 통계 (Descriptive Statistics): 평균, 중앙값, 최빈값
-- [ ] 추론 통계 (Inferential Statistics): 가설 검정, 신뢰 구간
-- [ ] 최대 가능도 추정 (Maximum Likelihood Estimation, MLE)
+- [x] [기본적인 확률 이론 (사건, 표본 공간, 조건부 확률)](./docs/01_03_01_Basic_Probability_Theory.md)
+- [x] [베이즈 정리 (Bayes' Theorem)](./docs/01_03_02_Bayes_Theorem.md)
+- [x] [확률 변수 (Random Variables)](./docs/01_03_03_Random_Variables.md)
+- [x] [확률 분포 (균등, 정규, 베르누이, 이항, 포아송 분포)](./docs/01_03_04_Probability_Distributions.md)
+- [x] [기댓값(Expected Value), 분산(Variance), 표준편차(Standard Deviation)](./docs/01_03_05_EV_Variance_StdDev.md)
+- [x] [중심극한정리 (Central Limit Theorem)](./docs/01_03_06_Central_Limit_Theorem.md)
+- [x] [기술 통계 (Descriptive Statistics): 평균, 중앙값, 최빈값](./docs/01_03_07_Descriptive_Statistics.md)
+- [x] [추론 통계 (Inferential Statistics): 가설 검정, 신뢰 구간](./docs/01_03_08_Inferential_Statistics.md)
+- [x] [최대 가능도 추정 (Maximum Likelihood Estimation, MLE)](./docs/01_03_09_Maximum_Likelihood_Estimation.md)
 
 #### 1.1.4. 최적화 (Optimization)
 - [ ] 비용 함수 (Cost Function) / 손실 함수 (Loss Function)
@@ -368,28 +368,28 @@
 ## 파트 8: 로봇공학 기초 (Robotics Foundations)
 
 ### 8.1. 로봇 시스템 소개 (Introduction to Robot Systems)
-- [ ] 로봇의 정의, 종류 및 구성요소 (매니퓰레이터, 모바일 로봇, 휴머노이드)
-- [ ] 좌표계 (Coordinate Systems) 및 변환 (Transformations): 3D 회전 및 변환 행렬
-- [ ] 로봇의 자유도 (Degrees of Freedom, DoF)
+- [x] [로봇의 정의, 종류 및 구성요소](./docs/08_01_01_Robot_Definition_Types_Components.md) (매니퓰레이터, 모바일 로봇, 휴머노이드)
+- [x] [좌표계 (Coordinate Systems) 및 변환 (Transformations)](./docs/08_01_02_Coordinate_Systems_Transformations.md): 3D 회전 및 변환 행렬
+- [x] [로봇의 자유도 (Degrees of Freedom, DoF)](./docs/08_01_03_Degrees_of_Freedom.md)
 
 ### 8.2. 로봇 운동학 (Robot Kinematics)
-- [ ] 순기구학 (Forward Kinematics): Denavit-Hartenberg (DH) 파라미터
-- [ ] 역기구학 (Inverse Kinematics): 해석적 해법 (Analytical Solutions), 수치적 해법 (Numerical Solutions)
-- [ ] 자코비안 (Jacobian): 속도 및 정적 힘(Static Force) 관계 분석
+- [x] [순기구학 (Forward Kinematics)](./docs/08_02_01_Forward_Kinematics.md): Denavit-Hartenberg (DH) 파라미터
+- [x] [역기구학 (Inverse Kinematics)](./docs/08_02_02_Inverse_Kinematics.md): 해석적 해법 (Analytical Solutions), 수치적 해법 (Numerical Solutions)
+- [x] [자코비안 (Jacobian)](./docs/08_02_03_Jacobian.md): 속도 및 정적 힘(Static Force) 관계 분석
 
 ### 8.3. 로봇 동역학 (Robot Dynamics)
-- [ ] 라그랑주 역학 (Lagrangian Dynamics) 기반 모델링
-- [ ] 뉴턴-오일러 방정식 (Newton-Euler Formulation) 기반 모델링
+- [x] [라그랑주 역학 (Lagrangian Dynamics) 기반 모델링](./docs/08_03_01_Lagrangian_Dynamics.md)
+- [x] [뉴턴-오일러 방정식 (Newton-Euler Formulation) 기반 모델링](./docs/08_03_02_Newton_Euler_Formulation.md)
 
 ### 8.4. 로봇 제어 (Robot Control)
-- [ ] 선형 제어 시스템 기초: 전달 함수, 상태 공간 모델
-- [ ] PID 제어 (Proportional-Integral-Derivative Control) 및 튜닝
-- [ ] 궤적 추종 제어 (Trajectory Tracking Control)
-- [ ] 힘 제어 (Force Control) 및 임피던스 제어 (Impedance Control)
+- [x] [선형 제어 시스템 기초](./docs/08_04_01_Linear_Control_Systems.md): 전달 함수, 상태 공간 모델
+- [x] [PID 제어 (Proportional-Integral-Derivative Control) 및 튜닝](./docs/08_04_02_PID_Control.md)
+- [x] [궤적 추종 제어 (Trajectory Tracking Control)](./docs/08_04_03_Trajectory_Tracking_Control.md)
+- [x] [힘 제어 (Force Control) 및 임피던스 제어 (Impedance Control)](./docs/08_04_04_Force_Impedance_Control.md)
 
 ### 8.5. 로봇 센서 및 액추에이터 (Sensors and Actuators)
-- [ ] 주요 센서: 카메라, LiDAR, RADAR, IMU, GPS, 엔코더(Encoder), 힘/토크 센서
-- [ ] 주요 액추에이터: DC 모터, 서보 모터, 스테퍼 모터, 유압/공압 시스템
+- [x] [주요 센서](./docs/08_05_01_Robot_Sensors.md): 카메라, LiDAR, RADAR, IMU, GPS, 엔코더(Encoder), 힘/토크 센서
+- [x] [주요 액추에이터](./docs/08_05_02_Robot_Actuators.md): DC 모터, 서보 모터, 스테퍼 모터, 유압/공압 시스템
 
 ## 파트 9: 로봇 프로그래밍 플랫폼 (Robotics Programming Platforms)
 
