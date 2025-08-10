@@ -7,7 +7,7 @@
 
 #### 1.1.1. 선형대수 (Linear Algebra)
 - [ ] [스칼라, 벡터, 행렬, 텐서의 이해](./docs/01_01_01_Scalar_Vector_Matrix_Tensor.md)
-- [ ] [행렬 연산 (덧셈, 뺄셈, 곱셈, 전치)](./docs/01_01_02_Matrix_Operations.md)
+- [x] [행렬 연산 (덧셈, 뺄셈, 곱셈, 전치)](./docs/01_01_02_Matrix_Operations.md)
 - [ ] [내적(Dot Product) 및 외적(Cross Product)](./docs/01_01_03_Dot_Product_and_Cross_Product.md)
 - [ ] [단위행렬(Identity Matrix)과 역행렬(Inverse Matrix)](./docs/01_01_04_Identity_and_Inverse_Matrix.md)
 - [ ] [행렬식(Determinant)](./docs/01_01_05_Determinant.md)
