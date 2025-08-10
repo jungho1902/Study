@@ -1,4 +1,4 @@
-# AI/ML 학습을 위한 종합 커리큘럼
+# AI/ML 및 로봇공학 학습을 위한 종합 커리큘럼
 
 ## 파트 1: AI/ML 학습을 위한 기초 (Foundations)
 
@@ -362,3 +362,88 @@
   - **연합 학습 (Federated Learning)**
   - **차등 정보보호 (Differential Privacy)**
 - **AI 안전성 (AI Safety):** AI 시스템의 의도치 않은 행동 방지
+
+## 파트 8: 로봇공학 기초 (Robotics Foundations)
+
+### 8.1. 로봇 시스템 소개 (Introduction to Robot Systems)
+- 로봇의 정의, 종류 및 구성요소 (매니퓰레이터, 모바일 로봇, 휴머노이드)
+- 좌표계 (Coordinate Systems) 및 변환 (Transformations): 3D 회전 및 변환 행렬
+- 로봇의 자유도 (Degrees of Freedom, DoF)
+
+### 8.2. 로봇 운동학 (Robot Kinematics)
+- 순기구학 (Forward Kinematics): Denavit-Hartenberg (DH) 파라미터
+- 역기구학 (Inverse Kinematics): 해석적 해법 (Analytical Solutions), 수치적 해법 (Numerical Solutions)
+- 자코비안 (Jacobian): 속도 및 정적 힘(Static Force) 관계 분석
+
+### 8.3. 로봇 동역학 (Robot Dynamics)
+- 라그랑주 역학 (Lagrangian Dynamics) 기반 모델링
+- 뉴턴-오일러 방정식 (Newton-Euler Formulation) 기반 모델링
+
+### 8.4. 로봇 제어 (Robot Control)
+- 선형 제어 시스템 기초: 전달 함수, 상태 공간 모델
+- PID 제어 (Proportional-Integral-Derivative Control) 및 튜닝
+- 궤적 추종 제어 (Trajectory Tracking Control)
+- 힘 제어 (Force Control) 및 임피던스 제어 (Impedance Control)
+
+### 8.5. 로봇 센서 및 액추에이터 (Sensors and Actuators)
+- 주요 센서: 카메라, LiDAR, RADAR, IMU, GPS, 엔코더(Encoder), 힘/토크 센서
+- 주요 액추에이터: DC 모터, 서보 모터, 스테퍼 모터, 유압/공압 시스템
+
+## 파트 9: 로봇 프로그래밍 플랫폼 (Robotics Programming Platforms)
+
+### 9.1. 로봇 운영체제 (Robot Operating System, ROS)
+- ROS 1 vs. ROS 2: 아키텍처 차이 및 선택 가이드
+- ROS 2 핵심 개념: 노드(Nodes), 토픽(Topics), 서비스(Services), 액션(Actions), 파라미터(Parameters)
+- 개발 환경 및 도구: Colcon 빌드 시스템, Rviz2 시각화 도구, ros2 bag 데이터 로깅
+- TF (Transform Library): 로봇의 동적인 좌표 변환 관리
+- URDF (Unified Robot Description Format): 로봇 모델 기술
+
+### 9.2. 로봇 시뮬레이터 (Robot Simulators)
+- Gazebo: 물리 엔진 기반 다개체 시뮬레이션, 월드/모델 생성 및 ROS 연동
+- NVIDIA Isaac Sim: 포토리얼리스틱 렌더링, 물리 기반 시뮬레이션, 딥러닝용 합성 데이터 생성
+- 기타 시뮬레이터: CoppeliaSim (V-REP), PyBullet, MuJoCo
+
+### 9.3. 임베디드 시스템 (Embedded Systems for Robotics)
+- 마이크로컨트롤러 (MCU): Arduino, STM32 등 펌웨어 개발
+- 싱글 보드 컴퓨터 (SBC): Raspberry Pi, Jetson Nano - 리눅스 기반 로봇 제어
+- 실시간 운영체제 (RTOS): FreeRTOS, Zephyr - 실시간성 보장
+
+## 파트 10: AI 기반 로봇 응용 (AI-Powered Robotic Applications)
+
+### 10.1. 자율 이동 로봇 (Autonomous Mobile Robots, AMR) & 자율주행
+- **인식 (Perception):**
+  - 카메라, LiDAR 데이터 처리 및 융합 (파트 4.3 CV, 파트 8.5 센서 연계)
+  - 센서 퓨전 심화: 칼만 필터(Kalman Filter), 확장 칼만 필터(EKF)
+- **위치 추정 및 지도 작성 (Localization & Mapping):**
+  - SLAM (Simultaneous Localization and Mapping) 알고리즘: EKF SLAM, Particle Filter SLAM, GraphSLAM
+  - 주요 SLAM 기술: Visual SLAM (ORB-SLAM), LiDAR SLAM (GMapping, Cartographer)
+- **경로 및 모션 계획 (Path & Motion Planning):**
+  - 전역 경로 계획 (Global Path Planning): Dijkstra, A*
+  - 지역 경로 계획 (Local Path Planning): Dynamic Window Approach (DWA), Timed Elastic Band (TEB)
+  - 샘플링 기반 계획 (Sampling-based Planning): RRT, RRT*
+- **자율주행 심화:**
+  - 행동 계획 (Behavioral Planning): 유한 상태 머신(FSM)
+  - 움직임 예측 (Motion Prediction)
+
+### 10.2. 로봇 매니퓰레이션 (Robot Manipulation)
+- **파지 (Grasping):**
+  - 2D/3D 객체 인식 및 자세 추정 (파트 4.3 CV 연계)
+  - 안정적인 파지 계획 (Stable Grasp Planning)
+- **작업 계획 (Task Planning):**
+  - Pick-and-Place 작업 순서 계획
+  - 조립(Assembly)을 위한 모션 계획
+- **AI 기반 제어:**
+  - 모방 학습 (Imitation Learning): Behavior Cloning, DAgger
+  - 강화학습 기반 매니퓰레이션 (파트 5 RL 연계): 희소 보상 문제, Sim-to-Real 전달
+
+### 10.3. 항공 로보틱스 (Aerial Robotics / Drones)
+- 드론 동역학 및 제어 모델
+- 항법 (Navigation) 및 궤적 추종 (Trajectory Tracking)
+- 비전 기반 자율 비행 (Visual Servoing) (파트 4.3 CV 연계)
+- 다중 드론 시스템 (Multi-drone Systems) 및 군집 비행 (Swarm Flight)
+
+### 10.4. 휴머노이드 및 다리 로봇 (Humanoids and Legged Robots)
+- 보행 패턴 생성 (Gait Generation) 및 안정성
+- 전신 동역학 및 제어 (Whole-Body Dynamics and Control)
+- 균형 제어 (Balance Control): Zero Moment Point (ZMP)
+- 강화학습 기반 보행 및 동작 생성 (파트 5 RL 연계)
